@@ -1,0 +1,47 @@
+import InstallButton from '@components/InstallButton'
+import { Typography } from '@mochi-ui/core'
+
+export default function Banner() {
+  return (
+    <div id="neko-emoji-banner" className="bg-stone-50 px-5 py-12">
+      <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-center">
+        <div className="w-full lg:w-1/2 order-2 lg:order-1 space-y-4">
+          <Typography level="h2" className="text-zinc-900">
+            Neko Sticker
+          </Typography>
+          <Typography>
+            Discover a treasure trove of adorable and amusing Neko cat stickers
+            on domain name. Find stickers for every mood and occasion, from
+            funny 😹 to meme 🥸 to newest 🚀 emojis.
+            <br />
+            <br />
+            Install them on your devices and let Neko&apos;s playful personality
+            add a touch of whimsy to your digital life.
+          </Typography>
+
+          <InstallButton
+            align="start"
+            size="lg"
+            title={
+              <>
+                <img
+                  className="h-5 w-5 mr-2"
+                  alt=""
+                  src="images/arrow-down-square.svg"
+                />
+                <span>Install this pack</span>
+              </>
+            }
+          />
+        </div>
+        <div className="w-full lg:w-1/2 order-1 lg:order-2">
+          <img
+            src="images/neko-pack.png"
+            alt=""
+            className="w-full h-full object-cover"
+          />
+        </div>
+      </div>
+    </div>
+  )
+}
