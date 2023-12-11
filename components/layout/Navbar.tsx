@@ -121,7 +121,7 @@ const desktopNavItems = [
 
 export default function Navbar() {
   return (
-    <div className="w-full sticky top-0 shadow">
+    <div className="w-full sticky top-0 shadow bg-white z-40">
       <div className="max-w-7xl mx-auto">
         <TopBar
           className="border-none"
