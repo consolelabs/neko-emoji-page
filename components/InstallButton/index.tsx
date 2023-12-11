@@ -94,7 +94,7 @@ export default function InstallButton({
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button
-          className="flex items-center bg-[#25D366] hover:bg-[#25D366] hover:bg-opacity-70"
+          className="flex items-center !bg-[#25D366] hover:!bg-[#25D366] hover:bg-opacity-70"
           type="button"
           size={size}
         >
