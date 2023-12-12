@@ -47,11 +47,11 @@ const stickers = [
 export default function Gallery() {
   return (
     <div id="gallery" className="relative bg-white px-5 py-12">
-      <div className="relative z-0 max-w-7xl mx-auto grid grid-cols-5 lg:grid-cols-8 gap-10">
+      <div className="relative z-0 max-w-7xl mx-auto grid grid-cols-5 lg:grid-cols-8 gap-5 lg:gap-10">
         {stickers.map((imgSrc, idx) => (
           <div key={idx} className="inline-flex items-center justify-center">
             <img
-              className="w-14 h-14 lg:w-24 lg:h-24 object-cover"
+              className="w-14 h-14 lg:w-24 lg:h-24 object-contain"
               src={`images/neko-sticker/${imgSrc}`}
               alt=""
             />
