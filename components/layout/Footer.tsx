@@ -63,11 +63,11 @@ export default function Footer() {
           title: 'Resources',
           links: [
             {
-              href: '/#gallery',
+              href: '#gallery',
               text: 'Gallery',
             },
             {
-              href: '/#about',
+              href: '#about',
               text: 'About',
             },
             {
@@ -92,12 +92,12 @@ export default function Footer() {
         },
         {
           Icon: () => <Discord />,
-          href: '/',
+          href: '#',
           title: 'Discord',
         },
         {
           Icon: () => <Telegram />,
-          href: '/',
+          href: '#',
           title: 'Telegram',
         },
       ]}

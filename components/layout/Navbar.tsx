@@ -49,13 +49,13 @@ const shareItems = [
     color="neutral"
     className="!flex !justify-start !font-medium !text-zinc-800"
     key="gallery-link-btn"
-    href="/#gallery"
+    href="#gallery"
   >
     Gallery
   </Button>,
   <Button
     as="a"
-    href="/#about"
+    href="#about"
     variant="ghost"
     color="neutral"
     className="!flex !justify-start !font-medium !text-zinc-800"
