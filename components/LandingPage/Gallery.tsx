@@ -92,7 +92,7 @@ export default function Gallery() {
           className={clsx(
             'absolute z-10 bottom-0 left-0 w-full h-48 bg-gradient-to-t from-white via-transparent to-transparent',
             {
-              '-bottom-14 lg:-bottom-16': showAll,
+              hidden: showAll,
             },
           )}
         />
@@ -101,7 +101,7 @@ export default function Gallery() {
         className={clsx(
           'relative z-20 flex items-center justify-center bg-white w-full',
           {
-            'mt-10 lg:mt-14': showAll,
+            'mt-10': showAll,
           },
         )}
       >

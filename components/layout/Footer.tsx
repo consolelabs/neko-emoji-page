@@ -14,6 +14,7 @@ import {
 export default function Footer() {
   return (
     <MochiFooter
+      className="!items-start"
       copyrightText="Copyright © 2023 Console Labs, All rights reserved"
       logo={<img className="h-14 w-14" alt="" src="images/logo-grid.png" />}
       nav={[
@@ -73,12 +74,10 @@ export default function Footer() {
             {
               href: '#gallery',
               text: 'Gallery',
-              newTab: true,
             },
             {
               href: '#about',
               text: 'About',
-              newTab: true,
             },
             {
               href: ConsolelabsURL,
@@ -95,29 +94,21 @@ export default function Footer() {
           },
           href: ConsolelabsURL,
           title: 'Console Labs',
-          // @ts-ignore
-          newTab: true,
         },
         {
           Icon: () => <X />,
           href: 'https://twitter.com/console_labs',
           title: 'X',
-          // @ts-ignore
-          newTab: true,
         },
         {
           Icon: () => <Discord />,
-          href: '#',
+          href: 'https://discord.gg/JdYaxBmr5k',
           title: 'Discord',
-          // @ts-ignore
-          newTab: true,
         },
         {
           Icon: () => <Telegram />,
-          href: '#',
+          href: TelegramInstallLink,
           title: 'Telegram',
-          // @ts-ignore
-          newTab: true,
         },
       ]}
     />
