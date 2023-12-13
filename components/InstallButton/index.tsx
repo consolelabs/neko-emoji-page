@@ -53,6 +53,7 @@ export const installContentMenus = (
           key={index}
           as="a"
           href={item?.href}
+          target="_blank"
         >
           {item?.iconLeft && <span className="text-xl">{item?.iconLeft}</span>}
           <Typography level="p6" className="!text-sm font-medium">

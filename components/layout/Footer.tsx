@@ -23,18 +23,22 @@ export default function Footer() {
             {
               href: DiscordInstallLink,
               text: 'Discord',
+              newTab: true,
             },
             {
               href: TelegramInstallLink,
               text: 'Telegram',
+              newTab: true,
             },
             {
               href: LINEInstallLink,
               text: 'LINE',
+              newTab: true,
             },
             {
               href: WhatsappInstallLink,
               text: 'Whatsapp',
+              newTab: true,
             },
           ],
         },
@@ -44,18 +48,22 @@ export default function Footer() {
             {
               href: NekoNFT,
               text: 'NFT',
+              newTab: true,
             },
             {
               href: '#',
               text: 'Wallet',
+              newTab: true,
             },
             {
               href: NekoShop,
               text: 'Shop',
+              newTab: true,
             },
             {
               href: WagmiConics,
               text: 'Comic',
+              newTab: true,
             },
           ],
         },
@@ -65,14 +73,17 @@ export default function Footer() {
             {
               href: '#gallery',
               text: 'Gallery',
+              newTab: true,
             },
             {
               href: '#about',
               text: 'About',
+              newTab: true,
             },
             {
               href: ConsolelabsURL,
               text: 'Console Labs',
+              newTab: true,
             },
           ],
         },
@@ -84,21 +95,29 @@ export default function Footer() {
           },
           href: ConsolelabsURL,
           title: 'Console Labs',
+          // @ts-ignore
+          newTab: true,
         },
         {
           Icon: () => <X />,
           href: 'https://twitter.com/console_labs',
           title: 'X',
+          // @ts-ignore
+          newTab: true,
         },
         {
           Icon: () => <Discord />,
           href: '#',
           title: 'Discord',
+          // @ts-ignore
+          newTab: true,
         },
         {
           Icon: () => <Telegram />,
           href: '#',
           title: 'Telegram',
+          // @ts-ignore
+          newTab: true,
         },
       ]}
     />

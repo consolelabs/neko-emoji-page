@@ -20,6 +20,7 @@ const shareItems = [
     key="ntf-link-btn"
     as="a"
     href={NekoNFT}
+    target="_blank"
   >
     NFT
   </Button>,
@@ -30,6 +31,7 @@ const shareItems = [
     key="wallet-link-btn"
     as="a"
     href="#"
+    target="_blank"
   >
     Wallet
   </Button>,
@@ -40,6 +42,7 @@ const shareItems = [
     key="shop-link-btn"
     as="a"
     href={NekoShop}
+    target="_blank"
   >
     Shop
   </Button>,
