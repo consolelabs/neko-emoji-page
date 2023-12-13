@@ -33,17 +33,17 @@ const products = [
 export default function About() {
   return (
     <div id="about" className="relative bg-white px-5 py-12">
-      <div className="relative z-0 max-w-7xl mx-auto space-y-6">
+      <div className="relative z-0 max-w-7xl mx-auto space-y-5">
         <div className="justify-between items-center gap-3 inline-flex w-full">
-          <InfoCircleOutlined className="h-8 w-8" />
-          <Typography level="h4" className="flex-1">
+          <img alt="icon info" src="images/info.svg" className="h-8 w-8" />
+          <Typography level="h4" className="flex-1 !text-zinc-900 !font-medium">
             More about Neko
           </Typography>
           <a
             className="rounded-lg justify-center items-center gap-2 flex"
             href={ConsolelabsURL}
           >
-            <Typography level="p4" className="font-bold hidden md:block">
+            <Typography level="p4" className="!font-medium hidden md:block">
               View all
             </Typography>
             <img
@@ -53,7 +53,10 @@ export default function About() {
             />
           </a>
         </div>
-        <Typography level="p4">
+        <Typography
+          level="p5"
+          className="!font-light !text-base !text-zinc-800"
+        >
           <span className="font-bold">Cyber Neko</span>
           <span>, also known as </span>
           <span className="font-bold">Neko</span>

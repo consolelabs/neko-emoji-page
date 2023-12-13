@@ -36,7 +36,8 @@ export default function Banner() {
                       alt=""
                       src="images/arrow-down-square.svg"
                     />
-                    <span>Install this pack</span>
+                    <span>Install</span>
+                    <span className="hidden lg:block ml-1">this pack</span>
                   </>
                 }
               />
