@@ -16,7 +16,11 @@ export default function CTA() {
             Console Labs, for the love of Neko cats! 🐈‍⬛🐾💖
           </Typography>
           <div className="text-center">
-            <Typography>
+            <Typography
+              level="p5"
+              color="textSecondary"
+              className="leading-tight"
+            >
               If you love Cyber Neko and like this project, contact via{' '}
               <a href="mailto:team@console.so" className="underline">
                 team@console.so

@@ -5,7 +5,11 @@ import {
   TelegramInstallLink,
   LINEInstallLink,
   WhatsappInstallLink,
-} from '@configs/install-links'
+  ConsolelabsURL,
+  NekoNFT,
+  NekoShop,
+  WagmiConics,
+} from '@configs/links'
 
 export default function Footer() {
   return (
@@ -38,19 +42,19 @@ export default function Footer() {
           title: 'Products',
           links: [
             {
-              href: '/',
+              href: NekoNFT,
               text: 'NFT',
             },
             {
-              href: '/',
+              href: '#',
               text: 'Wallet',
             },
             {
-              href: '/',
+              href: NekoShop,
               text: 'Shop',
             },
             {
-              href: '/',
+              href: WagmiConics,
               text: 'Comic',
             },
           ],
@@ -67,7 +71,7 @@ export default function Footer() {
               text: 'About',
             },
             {
-              href: 'https://console.so',
+              href: ConsolelabsURL,
               text: 'Console Labs',
             },
           ],
@@ -78,7 +82,7 @@ export default function Footer() {
           Icon: function noRefCheck() {
             return <img alt="" src="images/consolelabs-logo.svg" />
           },
-          href: 'https://console.so',
+          href: ConsolelabsURL,
           title: 'Console Labs',
         },
         {

@@ -9,11 +9,11 @@ export default function Page() {
     <>
       <Head>
         {/* <!-- Primary Meta Tags --> */}
-        <title>Neko Sticker • Consolelabs</title>
-        <meta name="title" content="Neko Sticker • Consolelabs" />
+        <title>Neko Emoji & Sticker</title>
+        <meta name="title" content="Neko Emoji & Sticker" />
         <meta
           name="description"
-          content="Discover a treasure trove of adorable and amusing Neko cat stickers on domain name. Find stickers for every mood and occasion, from funny 😹 to meme 🥸 to newest 🚀 emojis."
+          content="Explore adorable Neko Emoji & Sticker on various platform."
         />
 
         {/* <!-- Open Graph / Facebook --> */}
@@ -22,10 +22,10 @@ export default function Page() {
           property="og:url"
           content="https://consolelabs.github.io/neko-emoji-page/"
         />
-        <meta property="og:title" content="Neko Sticker • Consolelabs" />
+        <meta property="og:title" content="Neko Emoji & Sticker" />
         <meta
           property="og:description"
-          content="Discover a treasure trove of adorable and amusing Neko cat stickers on domain name. Find stickers for every mood and occasion, from funny 😹 to meme 🥸 to newest 🚀 emojis."
+          content="Explore adorable Neko Emoji & Sticker on various platform."
         />
         <meta
           property="og:image"
@@ -38,10 +38,10 @@ export default function Page() {
           property="twitter:url"
           content="https://consolelabs.github.io/neko-emoji-page/"
         />
-        <meta property="twitter:title" content="Neko Sticker • Consolelabs" />
+        <meta property="twitter:title" content="Neko Emoji & Sticker" />
         <meta
           property="twitter:description"
-          content="Discover a treasure trove of adorable and amusing Neko cat stickers on domain name. Find stickers for every mood and occasion, from funny 😹 to meme 🥸 to newest 🚀 emojis."
+          content="Explore adorable Neko Emoji & Sticker on various platform."
         />
         <meta
           property="twitter:image"

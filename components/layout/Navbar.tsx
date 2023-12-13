@@ -1,4 +1,5 @@
 import InstallButton, { installContentMenus } from '@components/InstallButton'
+import { NekoNFT, NekoShop } from '@configs/links'
 import {
   Accordion,
   AccordionContent,
@@ -11,49 +12,61 @@ import {
   Typography,
 } from '@mochi-ui/core'
 
-const mobileNavItems = [
+const shareItems = [
   <Button
-    variant="link"
-    className="!flex"
-    onClick={() => alert('API')}
+    variant="ghost"
+    color="neutral"
+    className="!flex !justify-start !font-medium !text-zinc-800"
     key="ntf-link-btn"
+    as="a"
+    href={NekoNFT}
   >
-    <Typography level="p6" className="!text-sm font-medium">
-      NFT
-    </Typography>
+    NFT
   </Button>,
-  <Button variant="link" className="!flex" key="wallet-link-btn">
-    <Typography level="p6" className="!text-sm font-medium">
-      Wallet
-    </Typography>
+  <Button
+    variant="ghost"
+    color="neutral"
+    className="!flex !justify-start !font-medium !text-zinc-800"
+    key="wallet-link-btn"
+    as="a"
+    href="#"
+  >
+    Wallet
   </Button>,
-  <Button variant="link" className="!flex" key="shop-link-btn">
-    <Typography level="p6" className="!text-sm font-medium">
-      Shop
-    </Typography>
+  <Button
+    variant="ghost"
+    color="neutral"
+    className="!flex !justify-start !font-medium !text-zinc-800"
+    key="shop-link-btn"
+    as="a"
+    href={NekoShop}
+  >
+    Shop
   </Button>,
   <Button
     as="a"
-    variant="link"
-    className="!flex !justify-start"
+    variant="ghost"
+    color="neutral"
+    className="!flex !justify-start !font-medium !text-zinc-800"
     key="gallery-link-btn"
     href="/#gallery"
   >
-    <Typography level="p6" className="!text-sm font-medium">
-      Gallery
-    </Typography>
+    Gallery
   </Button>,
   <Button
     as="a"
     href="/#about"
-    variant="link"
-    className="!flex !justify-start"
+    variant="ghost"
+    color="neutral"
+    className="!flex !justify-start !font-medium !text-zinc-800"
     key="about-link-btn"
   >
-    <Typography level="p6" className="!text-sm font-medium">
-      About
-    </Typography>
+    About
   </Button>,
+]
+
+const mobileNavItems = [
+  ...shareItems,
   <Accordion
     type="multiple"
     className="!p-0 !text-neutral-900 rounded-none shadow-none"
@@ -74,54 +87,13 @@ const mobileNavItems = [
 ]
 
 const desktopNavItems = [
-  <Button
-    variant="link"
-    className="!flex"
-    onClick={() => alert('API')}
-    key="ntf-link-btn"
-  >
-    <Typography level="p6" className="!text-sm font-medium">
-      NFT
-    </Typography>
-  </Button>,
-  <Button variant="link" className="!flex" key="wallet-link-btn">
-    <Typography level="p6" className="!text-sm font-medium">
-      Wallet
-    </Typography>
-  </Button>,
-  <Button variant="link" className="!flex" key="shop-link-btn">
-    <Typography level="p6" className="!text-sm font-medium">
-      Shop
-    </Typography>
-  </Button>,
-  <Button
-    as="a"
-    variant="link"
-    className="!flex"
-    key="gallery-link-btn"
-    href="/#gallery"
-  >
-    <Typography level="p6" className="!text-sm font-medium">
-      Gallery
-    </Typography>
-  </Button>,
-  <Button
-    as="a"
-    href="/#about"
-    variant="link"
-    className="!flex"
-    key="about-link-btn"
-  >
-    <Typography level="p6" className="!text-sm font-medium">
-      About
-    </Typography>
-  </Button>,
+  ...shareItems,
   <InstallButton key="install-link-btn" title="Install" />,
 ]
 
 export default function Navbar() {
   return (
-    <div className="w-full sticky top-0 shadow bg-white z-40">
+    <div className="w-full fixed lg:sticky top-0 shadow bg-white z-40">
       <div className="max-w-7xl mx-auto">
         <TopBar
           className="border-none"

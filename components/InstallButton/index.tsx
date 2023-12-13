@@ -14,19 +14,20 @@ import {
   TelegramInstallLink,
   LINEInstallLink,
   WhatsappInstallLink,
-} from '@configs/install-links'
+} from '@configs/links'
+import clsx from 'clsx'
 
 export const installContentMenus = (
   <List
     data={[
       {
         label: 'Discord',
-        iconLeft: <DiscordColored />,
+        iconLeft: <DiscordColored className="h-6 w-6" />,
         href: DiscordInstallLink,
       },
       {
         label: 'Telegram',
-        iconLeft: <TelegramColored />,
+        iconLeft: <TelegramColored className="h-6 w-6" />,
         href: TelegramInstallLink,
       },
       {
@@ -45,34 +46,18 @@ export const installContentMenus = (
 
       return (
         <Button
-          variant="link"
+          variant="ghost"
           color="neutral"
-          className="flex w-full !justify-start !text-base px-2 py-3 bg-background-surface !text-neutral-800 !font-normal hover:!text-black !h-max"
+          className="flex w-full !justify-start !text-base px-2 py-2.5"
           onClick={item?.onClick}
           key={index}
+          as="a"
+          href={item?.href}
         >
-          {item?.href ? (
-            <a
-              className="flex focus:outline-none items-center flex-1 gap-3.5"
-              href={item?.href}
-            >
-              {item?.iconLeft && (
-                <span className="text-xl">{item?.iconLeft}</span>
-              )}
-              <Typography level="p6" className="!text-sm font-medium">
-                {item?.label}
-              </Typography>
-            </a>
-          ) : (
-            <div className="flex focus:outline-none items-center flex-1 gap-3.5">
-              {item?.iconLeft && (
-                <span className="text-xl">{item?.iconLeft}</span>
-              )}
-              <Typography level="p6" className="!text-sm font-medium">
-                {item?.label}
-              </Typography>
-            </div>
-          )}
+          {item?.iconLeft && <span className="text-xl">{item?.iconLeft}</span>}
+          <Typography level="p6" className="!text-sm font-medium">
+            {item?.label}
+          </Typography>
         </Button>
       )
     }}
@@ -83,6 +68,7 @@ export default function InstallButton({
   title = 'Install',
   align = 'end',
   size = 'md',
+  className,
 }: {
   children?: React.ReactNode
   className?: string
@@ -94,7 +80,11 @@ export default function InstallButton({
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button
-          className="flex items-center !bg-[#25D366] hover:!bg-[#25D366] hover:bg-opacity-70"
+          className={clsx(
+            'flex items-center !bg-[#25D366] hover:!bg-[#25D366] hover:bg-opacity-70 rounded-md',
+            className,
+          )}
+          color="neutral"
           type="button"
           size={size}
         >
