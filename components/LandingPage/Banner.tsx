@@ -6,7 +6,7 @@ export default function Banner() {
   return (
     <div id="neko-emoji-banner" className="bg-stone-50 px-5 py-12">
       <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-center">
-        <div className="w-full lg:w-1/2 order-2 lg:order-1 space-y-4">
+        <div className="w-full lg:w-1/3 order-2 lg:order-1 space-y-4">
           <Typography
             level="h1"
             className="text-zinc-900 !text-2xl lg:!text-7xl"
@@ -55,7 +55,7 @@ export default function Banner() {
             </Button>
           </div>
         </div>
-        <div className="w-full lg:w-1/2 order-1 lg:order-2">
+        <div className="w-full lg:w-2/3 order-1 lg:order-2">
           <img
             src="images/neko-pack.png"
             alt=""
