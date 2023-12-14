@@ -2,7 +2,7 @@ import { Typography } from '@mochi-ui/core'
 
 export default function CTA() {
   return (
-    <div className="max-w-7xl mx-auto py-16 px-5">
+    <div className="max-w-7xl mx-auto py-20 px-5 lg:px-20">
       <div className="flex-col justify-center items-center gap-6 flex">
         <img className="w-24 h-24" src="images/neko-cup.png" alt="" />
         <div className="flex-col justify-start items-center gap-2 flex">

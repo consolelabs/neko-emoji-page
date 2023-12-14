@@ -11,6 +11,7 @@ import {
   TopBar,
   Typography,
 } from '@mochi-ui/core'
+import Link from 'next/link'
 
 const shareItems = [
   <Button
@@ -101,14 +102,17 @@ export default function Navbar() {
         <TopBar
           className="border-none"
           leftSlot={
-            <div className="h-10 justify-start items-center gap-3 inline-flex">
+            <Link
+              href=""
+              className="h-10 justify-start items-center gap-3 inline-flex"
+            >
               <div className="w-10 h-10 justify-center items-center flex">
                 <img className="w-10 h-10" src="images/logo.png" alt="" />
               </div>
               <Typography className="text-base font-black uppercase leading-normal">
                 cyber neko
               </Typography>
-            </div>
+            </Link>
           }
           rightSlot={
             <>

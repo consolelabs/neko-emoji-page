@@ -1,6 +1,8 @@
 import '@styles/globals.css'
-// import 'nprogress/nprogress.css'
-// import '@styles/nprogress.css'
+import clsx from 'clsx'
+import { Inter } from 'next/font/google'
+
+const inter = Inter({ subsets: ['latin'] })
 
 import type { AppProps } from 'next/app'
 
@@ -9,7 +11,7 @@ import Footer from '@components/layout/Footer'
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <main className="relative pt-14 lg:pt-0">
+    <main className={clsx(inter.className, 'relative pt-14 lg:pt-0')}>
       <Navbar />
       <Component {...pageProps} />
       <Footer />

@@ -69,7 +69,10 @@ export default function Gallery() {
   const [showAll, setShowAll] = useState(false)
 
   return (
-    <div id="gallery" className="relative bg-white px-5 py-12 overflow-hidden">
+    <div
+      id="gallery"
+      className="relative bg-white px-5 lg:px-20 py-8 lg:py-28 overflow-hidden"
+    >
       <div
         className={clsx(
           'relative z-0 max-w-7xl mx-auto grid grid-cols-5 lg:grid-cols-8 gap-5 lg:gap-10 transition-all overflow-hidden',
