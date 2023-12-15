@@ -22,22 +22,30 @@ export const installContentMenus = (
     data={[
       {
         label: 'Discord',
-        iconLeft: <DiscordColored className="h-6 w-6" />,
+        iconLeft: <DiscordColored className="h-5 w-5 lg:h-6 lg:w-6" />,
         href: DiscordInstallLink,
       },
       {
         label: 'Telegram',
-        iconLeft: <TelegramColored className="h-6 w-6" />,
+        iconLeft: <TelegramColored className="h-5 w-5 lg:h-6 lg:w-6" />,
         href: TelegramInstallLink,
       },
       {
         label: 'Line',
-        iconLeft: <img className="h-6 w-6" alt="" src="images/line.svg" />,
+        iconLeft: (
+          <img className="h-5 w-5 lg:h-6 lg:w-6" alt="" src="images/line.svg" />
+        ),
         href: LINEInstallLink,
       },
       {
         label: 'Whatsapp',
-        iconLeft: <img className="h-6 w-6" alt="" src="images/whatsapp.svg" />,
+        iconLeft: (
+          <img
+            className="h-5 w-5 lg:h-6 lg:w-6"
+            alt=""
+            src="images/whatsapp.svg"
+          />
+        ),
         href: WhatsappInstallLink,
       },
     ]}
