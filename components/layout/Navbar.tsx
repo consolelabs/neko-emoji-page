@@ -75,6 +75,7 @@ const mobileNavItems = [
     type="multiple"
     className="!p-0 !text-neutral-900 rounded-none shadow-none"
     key="install-accordion"
+    defaultValue={['1']}
   >
     <AccordionItem value="1">
       <AccordionTrigger
@@ -83,7 +84,7 @@ const mobileNavItems = [
       >
         Install
       </AccordionTrigger>
-      <AccordionContent className="mt-4 !px-1 !py-0 gap-1">
+      <AccordionContent className="gap-1">
         {installContentMenus}
       </AccordionContent>
     </AccordionItem>
@@ -100,7 +101,7 @@ export default function Navbar() {
     <div className="w-full fixed lg:sticky top-0 shadow bg-white z-40">
       <div className="max-w-7xl mx-auto">
         <TopBar
-          className="border-none"
+          className="border-none lg:!px-0"
           leftSlot={
             <Link
               href=""

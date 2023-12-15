@@ -32,8 +32,8 @@ const products = [
 
 export default function About() {
   return (
-    <div id="about" className="relative bg-white px-5 lg:px-20 py-12">
-      <div className="relative z-0 max-w-7xl mx-auto space-y-5">
+    <div id="about" className="relative bg-white py-12">
+      <div className="relative z-0 max-w-7xl px-5 lg:px-20 mx-auto space-y-5">
         <div className="justify-between items-center gap-3 inline-flex w-full">
           <img
             alt="icon info"
