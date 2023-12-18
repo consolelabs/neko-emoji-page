@@ -1,4 +1,5 @@
 import InstallButton, { installContentMenus } from '@components/InstallButton'
+import ArrowLink from '@components/icons/ArrowLink'
 import { NekoNFT, NekoShop } from '@configs/links'
 import {
   Accordion,
@@ -23,7 +24,7 @@ const shareItems = [
     href={NekoNFT}
     target="_blank"
   >
-    NFT
+    NFT <ArrowLink className="h-4 w-4" />
   </Button>,
   <Button
     variant="ghost"
@@ -34,7 +35,7 @@ const shareItems = [
     href="#"
     target="_blank"
   >
-    Wallet
+    Wallet <ArrowLink className="h-4 w-4" />
   </Button>,
   <Button
     variant="ghost"
@@ -45,7 +46,7 @@ const shareItems = [
     href={NekoShop}
     target="_blank"
   >
-    Shop
+    Shop <ArrowLink className="h-4 w-4" />
   </Button>,
   <Button
     as="a"

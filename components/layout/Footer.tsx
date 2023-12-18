@@ -10,6 +10,7 @@ import {
   NekoShop,
   WagmiConics,
 } from '@configs/links'
+import ArrowLink from '@components/icons/ArrowLink'
 
 export default function Footer() {
   return (
@@ -48,22 +49,42 @@ export default function Footer() {
           links: [
             {
               href: NekoNFT,
-              text: 'NFT',
+              // @ts-ignore
+              text: (
+                <div className="flex items-center justify-start">
+                  NFT <ArrowLink className="h-4 w-4" />
+                </div>
+              ),
               newTab: true,
             },
             {
               href: '#',
-              text: 'Wallet',
+              // @ts-ignore
+              text: (
+                <div className="flex items-center justify-start">
+                  Wallet <ArrowLink className="h-4 w-4" />
+                </div>
+              ),
               newTab: true,
             },
             {
               href: NekoShop,
-              text: 'Shop',
               newTab: true,
+              // @ts-ignore
+              text: (
+                <div className="flex items-center justify-start">
+                  Shop <ArrowLink className="h-4 w-4" />
+                </div>
+              ),
             },
             {
               href: WagmiConics,
-              text: 'Comic',
+              // @ts-ignore
+              text: (
+                <div className="flex items-center justify-start">
+                  Comic <ArrowLink className="h-4 w-4" />
+                </div>
+              ),
               newTab: true,
             },
           ],
