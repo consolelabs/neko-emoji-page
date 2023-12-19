@@ -1,6 +1,7 @@
 import InstallButton from '@components/InstallButton'
 import { NekoShop } from '@configs/links'
 import { Button, Typography } from '@mochi-ui/core'
+import Link from 'next/link'
 
 export default function Banner() {
   return (
@@ -15,8 +16,12 @@ export default function Banner() {
           </Typography>
           <Typography level="p4" className="text-zinc-800">
             Discover a treasure trove of adorable and amusing Neko cat stickers
-            on domain name. Find stickers for every mood and occasion, from
-            funny 😹 to meme 🥸 to newest 🚀 emojis.
+            on{' '}
+            <Link href="/" className="font-semibold">
+              sticker.console.so
+            </Link>
+            . Find stickers for every mood and occasion, from funny 😹 to meme
+            🥸 to newest 🚀 emojis.
             <br />
             <br />
             Install them on your devices and let Neko&apos;s playful personality
