@@ -11,9 +11,14 @@ import Footer from '@components/layout/Footer'
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <main className={clsx(inter.className, 'relative pt-14 lg:pt-0')}>
+    <main
+      className={clsx(
+        inter.className,
+        'relative pt-14 lg:pt-0 overflow-hidden',
+      )}
+    >
       <Navbar />
-      <div className="h-[calc(100vh-57px)] overflow-scroll relative z-0">
+      <div className="h-[calc(100vh-57px)] overflow-hidden overflow-y-scroll relative z-0">
         <Component {...pageProps} />
         <Footer />
       </div>

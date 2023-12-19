@@ -102,7 +102,7 @@ export default function Navbar() {
     <div className="w-full fixed lg:sticky top-0 shadow bg-white z-40">
       <div className="max-w-7xl mx-auto">
         <TopBar
-          className="border-none lg:!px-0"
+          className="border-none"
           leftSlot={
             <Link
               href=""
