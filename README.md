@@ -1,8 +1,6 @@
 # Neko Emoji & Sticker
 
-> Explore adorable Neko Emoji & Sticker on various platform.
->
-> More info: https://consolelabs.github.io/neko-emoji-page
+> Discover a treasure trove of adorable and amusing Neko cat stickers on [sticker.console.so](https://sticker.console.so).
 
 ![img](/public/images/neko-pack.png)
 
