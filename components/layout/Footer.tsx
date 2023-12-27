@@ -99,6 +99,7 @@ export default function Footer() {
             {
               href: '#about',
               text: 'About',
+              newTab: true,
             },
             {
               href: ConsolelabsURL,

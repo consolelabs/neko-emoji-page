@@ -33,14 +33,20 @@ export const installContentMenus = (
       {
         label: 'Line',
         iconLeft: (
-          <img className="h-5 w-5 lg:h-6 lg:w-6" alt="" src="images/line.svg" />
+          <img
+            loading="lazy"
+            className="h-5 w-5 lg:h-6 lg:w-6"
+            alt=""
+            src="images/line.svg"
+          />
         ),
         href: LINEInstallLink,
       },
       {
-        label: 'Whatsapp',
+        label: 'WhatsApp',
         iconLeft: (
           <img
+            loading="lazy"
             className="h-5 w-5 lg:h-6 lg:w-6"
             alt=""
             src="images/whatsapp.svg"
@@ -49,7 +55,7 @@ export const installContentMenus = (
         href: WhatsappInstallLink,
       },
     ]}
-    renderItem={(item: MobileNavItem, index) => {
+    renderItem={(item: MobileNavItem, index?: number) => {
       if (item?.component) return item?.component
 
       return (
@@ -90,7 +96,7 @@ export default function InstallButton({
       <DropdownMenuTrigger asChild>
         <Button
           className={clsx(
-            'flex items-center !bg-[#25D366] hover:!bg-[#25D366] hover:bg-opacity-70 rounded-md',
+            'flex items-center !bg-[#25D366] hover:!bg-[#25D366] hover:bg-opacity-70 rounded-sm',
             className,
           )}
           color="neutral"

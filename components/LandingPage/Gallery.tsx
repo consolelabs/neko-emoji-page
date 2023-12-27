@@ -85,6 +85,7 @@ export default function Gallery() {
         {stickers.map((imgName, idx) => (
           <div key={idx} className="inline-flex items-center justify-center">
             <img
+              loading="lazy"
               className="w-14 h-14 lg:w-24 lg:h-24 object-contain"
               src={`images/neko-sticker/${imgName}`}
               alt={imgName.replaceAll(/\.gif|\_/gi, ' ').trimEnd()}
@@ -113,6 +114,7 @@ export default function Gallery() {
           color="neutral"
           className="bg-gray-200 rounded-full p-2.5"
           type="button"
+          aria-label="Show all"
           onClick={() => setShowAll(!showAll)}
         >
           <ChevronDownLine

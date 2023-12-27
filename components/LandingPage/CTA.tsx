@@ -22,8 +22,8 @@ export default function CTA() {
               className="leading-tight"
             >
               If you love Cyber Neko and like this project, contact via{' '}
-              <a href="mailto:team@console.so" className="underline">
-                team@console.so
+              <a href="mailto:gm@console.so" className="underline">
+                gm@console.so
               </a>{' '}
               to share your ideas with us!{' '}
             </Typography>

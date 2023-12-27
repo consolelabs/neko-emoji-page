@@ -18,10 +18,7 @@ export default function Page() {
 
         {/* <!-- Open Graph / Facebook --> */}
         <meta property="og:type" content="website" />
-        <meta
-          property="og:url"
-          content="https://consolelabs.github.io/neko-emoji-page/"
-        />
+        <meta property="og:url" content="https://sticker.console.so" />
         <meta property="og:title" content="Neko Emoji & Sticker" />
         <meta
           property="og:description"
@@ -29,15 +26,12 @@ export default function Page() {
         />
         <meta
           property="og:image"
-          content="https://consolelabs.github.io/neko-emoji-page/images/neko-pack.png"
+          content="https://sticker.console.so/thumbnail.png"
         />
 
         {/* <!-- Twitter --> */}
         <meta property="twitter:card" content="summary_large_image" />
-        <meta
-          property="twitter:url"
-          content="https://consolelabs.github.io/neko-emoji-page/"
-        />
+        <meta property="twitter:url" content="https://sticker.console.so" />
         <meta property="twitter:title" content="Neko Emoji & Sticker" />
         <meta
           property="twitter:description"
@@ -45,7 +39,7 @@ export default function Page() {
         />
         <meta
           property="twitter:image"
-          content="https://consolelabs.github.io/neko-emoji-page/images/neko-pack.png"
+          content="https://sticker.console.so/thumbnail.png"
         />
       </Head>
       <Banner />

@@ -74,14 +74,14 @@ const mobileNavItems = [
   ...shareItems,
   <Accordion
     type="multiple"
-    className="!p-0 !text-neutral-900 rounded-none shadow-none"
+    className="!p-0 !text-zinc-800 rounded-none shadow-none"
     key="install-accordion"
     defaultValue={['1']}
   >
     <AccordionItem value="1">
       <AccordionTrigger
         wrapperClassName="!py-3 !px-4"
-        className="text-base !text-neutral-900"
+        className="text-sm !font-medium !text-zinc-800"
       >
         Install
       </AccordionTrigger>
@@ -99,7 +99,10 @@ const desktopNavItems = [
 
 export default function Navbar() {
   return (
-    <div className="w-full fixed lg:sticky top-0 shadow bg-white z-40">
+    <div
+      id="navbar"
+      className="w-full fixed lg:sticky top-0 shadow bg-white z-40"
+    >
       <div className="max-w-7xl mx-auto">
         <TopBar
           className="border-none"
