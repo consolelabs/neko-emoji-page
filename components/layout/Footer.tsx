@@ -39,7 +39,7 @@ export default function Footer() {
             },
             {
               href: WhatsappInstallLink,
-              text: 'Whatsapp',
+              text: 'WhatsApp',
               newTab: true,
             },
           ],
@@ -112,7 +112,13 @@ export default function Footer() {
       social={[
         {
           Icon: function noRefCheck() {
-            return <img alt="" src="images/consolelabs-logo.svg" />
+            return (
+              <img
+                alt=""
+                src="images/consolelabs-logo.svg"
+                className="w-5 h-5"
+              />
+            )
           },
           href: ConsolelabsURL,
           title: 'Console Labs',

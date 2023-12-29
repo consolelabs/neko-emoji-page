@@ -9,7 +9,7 @@ export default function CTA() {
           <Typography className="text-center">
             From the artist at
             <img
-              className="w-5 inline-block mx-1.5"
+              className="w-5 h-5 inline-block mx-1.5"
               src="images/consolelabs-logo.svg"
               alt=""
             />

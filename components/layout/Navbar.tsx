@@ -80,6 +80,7 @@ const mobileNavItems = [
   >
     <AccordionItem value="1">
       <AccordionTrigger
+        // asChild
         wrapperClassName="!py-3 !px-4"
         className="text-sm !font-medium !text-zinc-800"
       >

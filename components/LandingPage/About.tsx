@@ -41,7 +41,7 @@ export default function About() {
             className="h-6 w-6 lg:h-8 lg:w-8"
           />
           <Typography
-            level="h4"
+            level="p"
             className="flex-1 !text-zinc-900 !font-medium !text-2xl lg:text-4xl"
           >
             More about Neko
@@ -49,13 +49,15 @@ export default function About() {
           <a
             className="rounded-lg justify-center items-center gap-2 flex"
             href={ConsolelabsURL}
+            rel="noreferrer"
+            target="_blank"
           >
             <Typography level="p4" className="!font-medium hidden md:block">
               View all
             </Typography>
             <img
               className="w-5 h-5 relative"
-              alt=""
+              alt="view all"
               src="images/arrow-link.svg"
             />
           </a>
@@ -81,6 +83,8 @@ export default function About() {
               key={idx}
               className="p-6 rounded-xl border border-gray-200 flex-col justify-start items-start gap-4 inline-flex overflow-hidden"
               href={product.href}
+              rel="noreferrer"
+              target="_blank"
             >
               <img
                 className="w-20 h-20 object-cover"

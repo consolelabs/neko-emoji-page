@@ -41,6 +41,8 @@ export default function Page() {
           property="twitter:image"
           content="https://sticker.console.so/thumbnail.png"
         />
+        {/* cache 1 month */}
+        <meta http-equiv="Cache-Control" content="max-age=2629746, public" />
       </Head>
       <Banner />
       <Gallery />

@@ -5,7 +5,10 @@ import Link from 'next/link'
 
 export default function Banner() {
   return (
-    <div id="neko-emoji-banner" className="bg-stone-50 py-20">
+    <div
+      id="neko-emoji-banner"
+      className="relative z-10 bg-stone-50 py-20 overflow-visible"
+    >
       <div className="max-w-7xl px-5 lg:px-20 mx-auto flex flex-wrap items-center justify-center">
         <div className="w-full lg:w-5/12 order-2 lg:order-1 space-y-4">
           <Typography
