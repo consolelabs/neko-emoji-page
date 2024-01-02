@@ -16,7 +16,7 @@ export default function Footer() {
   return (
     <MochiFooter
       className="!items-start lg:!px-20"
-      copyrightText="Copyright © 2023 Console Labs, All rights reserved"
+      copyrightText={`Copyright © ${new Date().getFullYear()} Console Labs, All rights reserved`}
       logo={<img className="h-14 w-14" alt="" src="images/logo-grid.png" />}
       nav={[
         {
