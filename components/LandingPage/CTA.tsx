@@ -4,7 +4,15 @@ export default function CTA() {
   return (
     <div className="max-w-7xl mx-auto py-20 px-5 lg:px-20">
       <div className="flex-col justify-center items-center gap-6 flex">
-        <img className="w-24 h-24" src="images/neko-cup.png" alt="" />
+        <video
+          className="w-24 h-24 object-contain"
+          controls={false}
+          autoPlay
+          loop
+          muted
+        >
+          <source src="images/neko-sticker/Cup.mp4" type="video/mp4" />
+        </video>
         <div className="flex-col justify-start items-center gap-2 flex">
           <Typography className="text-center">
             From the artist at
