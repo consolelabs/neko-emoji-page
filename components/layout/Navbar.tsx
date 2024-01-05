@@ -26,28 +26,28 @@ const shareItems = [
   >
     NFT <ArrowLink className="w-4 h-4" />
   </Button>,
-  <Button
-    variant="ghost"
-    color="neutral"
-    className="!flex !justify-start !font-medium !text-zinc-800"
-    key="wallet-link-btn"
-    as="a"
-    href="#"
-    target="_blank"
-  >
-    Wallet <ArrowLink className="w-4 h-4" />
-  </Button>,
-  <Button
-    variant="ghost"
-    color="neutral"
-    className="!flex !justify-start !font-medium !text-zinc-800"
-    key="shop-link-btn"
-    as="a"
-    href={NekoShop}
-    target="_blank"
-  >
-    Shop <ArrowLink className="w-4 h-4" />
-  </Button>,
+  // <Button
+  //   variant="ghost"
+  //   color="neutral"
+  //   className="!flex !justify-start !font-medium !text-zinc-800"
+  //   key="wallet-link-btn"
+  //   as="a"
+  //   href="#"
+  //   target="_blank"
+  // >
+  //   Wallet <ArrowLink className="w-4 h-4" />
+  // </Button>,
+  // <Button
+  //   variant="ghost"
+  //   color="neutral"
+  //   className="!flex !justify-start !font-medium !text-zinc-800"
+  //   key="shop-link-btn"
+  //   as="a"
+  //   href={NekoShop}
+  //   target="_blank"
+  // >
+  //   Shop <ArrowLink className="w-4 h-4" />
+  // </Button>,
   <Button
     as="a"
     variant="ghost"

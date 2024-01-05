@@ -10,5 +10,5 @@
 }
 
 footer > div {
-  @apply lg:!px-8 2xl:!px-8;
+  @apply !px-5 lg:!px-36;
 }

@@ -57,26 +57,26 @@ export default function Footer() {
               ),
               newTab: true,
             },
-            {
-              href: '#',
-              // @ts-ignore
-              text: (
-                <div className="flex items-center justify-start">
-                  Wallet <ArrowLink className="h-4 w-4" />
-                </div>
-              ),
-              newTab: true,
-            },
-            {
-              href: NekoShop,
-              newTab: true,
-              // @ts-ignore
-              text: (
-                <div className="flex items-center justify-start">
-                  Shop <ArrowLink className="h-4 w-4" />
-                </div>
-              ),
-            },
+            // {
+            //   href: '#',
+            //   // @ts-ignore
+            //   text: (
+            //     <div className="flex items-center justify-start">
+            //       Wallet <ArrowLink className="h-4 w-4" />
+            //     </div>
+            //   ),
+            //   newTab: true,
+            // },
+            // {
+            //   href: NekoShop,
+            //   newTab: true,
+            //   // @ts-ignore
+            //   text: (
+            //     <div className="flex items-center justify-start">
+            //       Shop <ArrowLink className="h-4 w-4" />
+            //     </div>
+            //   ),
+            // },
             {
               href: WagmiConics,
               // @ts-ignore
