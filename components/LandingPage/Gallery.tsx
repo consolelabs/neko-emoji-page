@@ -1,7 +1,6 @@
 import { Button } from '@mochi-ui/core'
 import { ChevronDownLine } from '@mochi-ui/icons'
 import clsx from 'clsx'
-import Image from 'next/image'
 import { useState } from 'react'
 
 const stickers = [

@@ -60,7 +60,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install
       - name: Build
-        run: pnpm build
+        run: pnpm build && ls -al
       - name: Fix permissions
         run: |
           chmod -c -R +rX "out/" | while read line; do
