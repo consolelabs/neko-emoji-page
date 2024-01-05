@@ -2,18 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .two-line-ellipsis {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   overflow: hidden;
   -webkit-line-clamp: 2;
-}
-
-#navbar button:focus {
-  outline: none !important;
-  background-color: transparent !important;
-  box-shadow: none !important;
 }
 
 footer > div {

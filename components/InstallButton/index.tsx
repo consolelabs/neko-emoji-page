@@ -22,12 +22,12 @@ export const installContentMenus = (
     data={[
       {
         label: 'Discord',
-        iconLeft: <DiscordColored className="h-5 w-5 lg:h-6 lg:w-6" />,
+        iconLeft: <DiscordColored className="w-5 h-5 lg:w-6 lg:h-6" />,
         href: DiscordInstallLink,
       },
       {
         label: 'Telegram',
-        iconLeft: <TelegramColored className="h-5 w-5 lg:h-6 lg:w-6" />,
+        iconLeft: <TelegramColored className="w-5 h-5 lg:w-6 lg:h-6" />,
         href: TelegramInstallLink,
       },
       {
@@ -35,7 +35,7 @@ export const installContentMenus = (
         iconLeft: (
           <img
             loading="lazy"
-            className="h-5 w-5 lg:h-6 lg:w-6"
+            className="w-5 h-5 lg:w-6 lg:h-6"
             alt=""
             src="images/line.svg"
           />
@@ -47,7 +47,7 @@ export const installContentMenus = (
         iconLeft: (
           <img
             loading="lazy"
-            className="h-5 w-5 lg:h-6 lg:w-6"
+            className="w-5 h-5 lg:w-6 lg:h-6"
             alt=""
             src="images/whatsapp.svg"
           />
@@ -96,7 +96,7 @@ export default function InstallButton({
       <DropdownMenuTrigger asChild>
         <Button
           className={clsx(
-            'flex items-center !bg-[#25D366] hover:!bg-[#25D366] hover:bg-opacity-70 rounded-sm',
+            'flex items-center !bg-[#25D366] hover:!bg-[#25D366] hover:bg-opacity-70',
             className,
           )}
           color="neutral"
