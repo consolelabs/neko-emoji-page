@@ -5,64 +5,64 @@ import Image from 'next/image'
 import { useState } from 'react'
 
 const stickers = [
-  '+1.gif',
-  'crying.gif',
-  'disappear.gif',
-  'flickering.gif',
-  'lick.gif',
-  'ok_3.gif',
-  'rainbow.gif',
-  'shocked.gif',
-  'sweating.gif',
-  'underwater.gif',
-  'agree.gif',
-  'cup.gif',
-  'disco.gif',
-  'grieve.gif',
-  'look.gif',
-  'panic.gif',
-  'rich.gif',
-  'shy.gif',
-  'think.gif',
-  'wagging_tail.gif',
-  'angry.gif',
-  'dancing.gif',
-  'dizzy.gif',
-  'happy.gif',
-  'lotus.gif',
-  'press_button.gif',
-  'rich_2.gif',
-  'sleeping.gif',
-  'throbbing_heart.gif',
-  'wat.gif',
-  'begging.gif',
-  'despising_look.gif',
-  'drained.gif',
-  'heart.gif',
-  'no.gif',
-  'pressing_phone.gif',
-  'scare.gif',
-  'sparkle.gif',
-  'throwing_money.gif',
-  'yoink.gif',
-  'broke.gif',
-  'dinosaur.gif',
-  'exciting.gif',
-  'kiss_neko.gif',
-  'ok.gif',
-  'rabby_kiss.gif',
-  'scratching_head.gif',
-  'sparkle.gif',
-  'tired.gif',
-  'zoom_in.gif',
-  'clapping.gif',
-  'disagree.gif',
-  'fedora_heart.gif',
-  'laugh.gif',
-  'ok_2.gif',
-  'raged.gif',
-  'shifty.gif',
-  'trippy.gif',
+  '+1.mp4',
+  'crying.mp4',
+  'disappear.mp4',
+  'flickering.mp4',
+  'lick.mp4',
+  'ok_3.mp4',
+  'rainbow.mp4',
+  'shocked.mp4',
+  'sweating.mp4',
+  'underwater.mp4',
+  'agree.mp4',
+  'cup.mp4',
+  'disco.mp4',
+  'grieve.mp4',
+  'look.mp4',
+  'panic.mp4',
+  'rich.mp4',
+  'shy.mp4',
+  'think.mp4',
+  'wagging_tail.mp4',
+  'angry.mp4',
+  'dancing.mp4',
+  'dizzy.mp4',
+  'happy.mp4',
+  'lotus.mp4',
+  'press_button.mp4',
+  'rich_2.mp4',
+  'sleeping.mp4',
+  'throbbing_heart.mp4',
+  'wat.mp4',
+  'begging.mp4',
+  'despising_look.mp4',
+  'drained.mp4',
+  'heart.mp4',
+  'no.mp4',
+  'pressing_phone.mp4',
+  'scare.mp4',
+  'sparkle.mp4',
+  'throwing_money.mp4',
+  'yoink.mp4',
+  'broke.mp4',
+  'dinosaur.mp4',
+  'exciting.mp4',
+  'kiss_neko.mp4',
+  'ok.mp4',
+  'rabby_kiss.mp4',
+  'scratching_head.mp4',
+  'sparkle.mp4',
+  'tired.mp4',
+  'zoom_in.mp4',
+  'clapping.mp4',
+  'disagree.mp4',
+  'fedora_heart.mp4',
+  'laugh.mp4',
+  'ok_2.mp4',
+  'raged.mp4',
+  'shifty.mp4',
+  'trippy.mp4',
 ]
 
 export default function Gallery() {
@@ -87,12 +87,16 @@ export default function Gallery() {
             key={idx}
             className="inline-flex relative justify-center items-center w-14 h-14 lg:w-24 lg:h-24"
           >
-            <Image
-              fill
+            <video
               className="object-contain"
-              src={`/images/neko-sticker/${imgName}`}
-              alt={imgName}
-            />
+              src={`images/neko-sticker/${imgName}`}
+              controls={false}
+              autoPlay
+              loop
+              muted
+            >
+              <source src={`images/neko-sticker/${imgName}`} type="video/mp4" />
+            </video>
           </div>
         ))}
         <div
