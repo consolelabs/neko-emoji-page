@@ -24,7 +24,7 @@ const shareItems = [
     href={NekoNFT}
     target="_blank"
   >
-    NFT <ArrowLink className="h-4 w-4" />
+    NFT <ArrowLink className="w-4 h-4" />
   </Button>,
   <Button
     variant="ghost"
@@ -35,7 +35,7 @@ const shareItems = [
     href="#"
     target="_blank"
   >
-    Wallet <ArrowLink className="h-4 w-4" />
+    Wallet <ArrowLink className="w-4 h-4" />
   </Button>,
   <Button
     variant="ghost"
@@ -46,7 +46,7 @@ const shareItems = [
     href={NekoShop}
     target="_blank"
   >
-    Shop <ArrowLink className="h-4 w-4" />
+    Shop <ArrowLink className="w-4 h-4" />
   </Button>,
   <Button
     as="a"
@@ -102,32 +102,30 @@ export default function Navbar() {
   return (
     <div
       id="navbar"
-      className="w-full fixed lg:sticky top-0 shadow bg-white z-40"
+      className="fixed top-0 z-40 w-full bg-white shadow lg:sticky"
     >
-      <div className="max-w-7xl mx-auto">
-        <TopBar
-          className="border-none"
-          leftSlot={
-            <Link
-              href=""
-              className="h-10 justify-start items-center gap-3 inline-flex"
-            >
-              <div className="w-10 h-10 justify-center items-center flex">
-                <img className="w-10 h-10" src="images/logo.png" alt="" />
-              </div>
-              <Typography className="text-base font-black uppercase leading-normal">
-                cyber neko
-              </Typography>
-            </Link>
-          }
-          rightSlot={
-            <>
-              <MobileNav navItems={mobileNavItems} />
-              <DesktopNav navItems={desktopNavItems} />
-            </>
-          }
-        />
-      </div>
+      <TopBar
+        className="border-none"
+        leftSlot={
+          <Link
+            href=""
+            className="inline-flex gap-3 justify-start items-center h-10"
+          >
+            <div className="flex justify-center items-center w-10 h-10">
+              <img className="w-10 h-10" src="images/logo.png" alt="" />
+            </div>
+            <Typography className="text-base font-black leading-normal uppercase">
+              cyber neko
+            </Typography>
+          </Link>
+        }
+        rightSlot={
+          <>
+            <MobileNav navItems={mobileNavItems} />
+            <DesktopNav navItems={desktopNavItems} />
+          </>
+        }
+      />
     </div>
   )
 }
