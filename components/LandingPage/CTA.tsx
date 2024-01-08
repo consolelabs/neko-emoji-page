@@ -2,10 +2,10 @@ import { Typography } from '@mochi-ui/core'
 
 export default function CTA() {
   return (
-    <div className="max-w-7xl mx-auto py-20 px-5 lg:px-20">
-      <div className="flex-col justify-center items-center gap-6 flex">
+    <div className="py-20 landing-block">
+      <div className="flex flex-col gap-6 justify-center items-center">
         <video
-          className="w-24 h-24 object-contain"
+          className="object-contain w-24 h-24"
           controls={false}
           autoPlay
           loop
@@ -13,11 +13,11 @@ export default function CTA() {
         >
           <source src="images/neko-sticker/Cup.mp4" type="video/mp4" />
         </video>
-        <div className="flex-col justify-start items-center gap-2 flex">
+        <div className="flex flex-col gap-2 justify-start items-center">
           <Typography className="text-center">
             From the artist at
             <img
-              className="w-5 h-5 inline-block mx-1.5"
+              className="inline-block mx-1.5 w-5 h-5"
               src="images/consolelabs-logo.svg"
               alt=""
             />

@@ -9,6 +9,6 @@
   -webkit-line-clamp: 2;
 }
 
-footer > div {
-  @apply !px-5 lg:!px-36;
+.landing-block {
+  @apply w-full px-5 mx-auto xl:max-w-7xl 2xl:px-0;
 }

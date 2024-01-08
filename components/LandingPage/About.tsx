@@ -1,6 +1,5 @@
 import { ConsolelabsURL, NekoNFT, NekoShop, WagmiConics } from '@configs/links'
 import { Typography } from '@mochi-ui/core'
-import { InfoCircleOutlined } from '@mochi-ui/icons'
 
 const products = [
   {
@@ -32,74 +31,72 @@ const products = [
 
 export default function About() {
   return (
-    <div id="about" className="relative bg-white py-12">
-      <div className="relative z-0 max-w-7xl px-5 lg:px-20 mx-auto space-y-5">
-        <div className="justify-between items-center gap-3 inline-flex w-full">
-          <img
-            alt="icon info"
-            src="images/info.svg"
-            className="h-6 w-6 lg:h-8 lg:w-8"
-          />
-          <Typography
-            level="p"
-            className="flex-1 !text-zinc-900 !font-medium !text-2xl lg:text-4xl"
-          >
-            More about Neko
+    <div
+      id="about"
+      className="relative z-0 py-12 space-y-5 bg-white landing-block"
+    >
+      <div className="inline-flex gap-3 justify-between items-center w-full">
+        <img
+          alt="icon info"
+          src="images/info.svg"
+          className="w-6 h-6 lg:w-8 lg:h-8"
+        />
+        <Typography
+          level="p"
+          className="flex-1 !text-zinc-900 !font-medium !text-2xl lg:text-4xl"
+        >
+          More about Neko
+        </Typography>
+        <a
+          className="flex gap-2 justify-center items-center rounded-lg"
+          href={ConsolelabsURL}
+          rel="noreferrer"
+          target="_blank"
+        >
+          <Typography level="p4" className="!font-medium hidden md:block">
+            View all
           </Typography>
+          <img
+            className="relative w-5 h-5"
+            alt="view all"
+            src="images/arrow-link.svg"
+          />
+        </a>
+      </div>
+      <Typography level="p5" className="!font-normal !text-base !text-zinc-800">
+        <span className="font-bold">Cyber Neko</span>
+        <span>, also known as </span>
+        <span className="font-bold">Neko</span>
+        <span>
+          , is a yellow cat with big round eyes, a fluffy tail, and a small,
+          slender body. It moves in a gentle and graceful way, as if it is
+          gliding on water. Neko is a very cute cat, with adorable and
+          mischievous expressions.
+        </span>
+      </Typography>
+
+      <div className="grid grid-cols-1 gap-6 lg:grid-cols-4">
+        {products.map((product, idx) => (
           <a
-            className="rounded-lg justify-center items-center gap-2 flex"
-            href={ConsolelabsURL}
+            key={idx}
+            className="inline-flex overflow-hidden flex-col gap-4 justify-start items-start p-6 rounded-xl border border-gray-200"
+            href={product.href}
             rel="noreferrer"
             target="_blank"
           >
-            <Typography level="p4" className="!font-medium hidden md:block">
-              View all
-            </Typography>
             <img
-              className="w-5 h-5 relative"
-              alt="view all"
-              src="images/arrow-link.svg"
+              className="object-cover w-20 h-20"
+              src={product.image}
+              alt=""
             />
+            <Typography level="p3" className="font-bold">
+              {product.title}
+            </Typography>
+            <Typography level="p5" className="two-line-ellipsis">
+              {product.description}
+            </Typography>
           </a>
-        </div>
-        <Typography
-          level="p5"
-          className="!font-normal !text-base !text-zinc-800"
-        >
-          <span className="font-bold">Cyber Neko</span>
-          <span>, also known as </span>
-          <span className="font-bold">Neko</span>
-          <span>
-            , is a yellow cat with big round eyes, a fluffy tail, and a small,
-            slender body. It moves in a gentle and graceful way, as if it is
-            gliding on water. Neko is a very cute cat, with adorable and
-            mischievous expressions.
-          </span>
-        </Typography>
-
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
-          {products.map((product, idx) => (
-            <a
-              key={idx}
-              className="p-6 rounded-xl border border-gray-200 flex-col justify-start items-start gap-4 inline-flex overflow-hidden"
-              href={product.href}
-              rel="noreferrer"
-              target="_blank"
-            >
-              <img
-                className="w-20 h-20 object-cover"
-                src={product.image}
-                alt=""
-              />
-              <Typography level="p3" className="font-bold">
-                {product.title}
-              </Typography>
-              <Typography level="p5" className="two-line-ellipsis">
-                {product.description}
-              </Typography>
-            </a>
-          ))}
-        </div>
+        ))}
       </div>
     </div>
   )

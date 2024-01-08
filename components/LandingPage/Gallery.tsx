@@ -69,11 +69,11 @@ export default function Gallery() {
   return (
     <div
       id="gallery"
-      className="overflow-hidden relative z-0 py-8 bg-white lg:py-28"
+      className="overflow-hidden relative z-0 py-8 bg-white lg:py-28 landing-block"
     >
       <div
         className={clsx(
-          'relative z-0 max-w-7xl px-5 lg:px-20 mx-auto grid grid-cols-5 lg:grid-cols-8 gap-5 lg:gap-10 transition-all overflow-hidden',
+          'relative z-0 max-w-7xl mx-auto grid grid-cols-5 lg:grid-cols-8 gap-5 lg:gap-10 transition-all overflow-hidden',
           {
             'h-[400px] lg:h-[500px]': !showAll,
             'max-h-full': showAll,

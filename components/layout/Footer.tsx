@@ -15,9 +15,9 @@ import ArrowLink from '@components/icons/ArrowLink'
 export default function Footer() {
   return (
     <MochiFooter
-      className="!items-start lg:!px-20"
+      className="!items-start"
       copyrightText={`Copyright © ${new Date().getFullYear()} Console Labs, All rights reserved`}
-      logo={<img className="h-14 w-14" alt="" src="images/logo-grid.png" />}
+      logo={<img className="w-14 h-14" alt="" src="images/logo-grid.png" />}
       nav={[
         {
           title: 'Install',
@@ -51,8 +51,8 @@ export default function Footer() {
               href: NekoNFT,
               // @ts-ignore
               text: (
-                <div className="flex items-center justify-start">
-                  NFT <ArrowLink className="h-4 w-4" />
+                <div className="flex justify-start items-center">
+                  NFT <ArrowLink className="w-4 h-4" />
                 </div>
               ),
               newTab: true,
@@ -61,8 +61,8 @@ export default function Footer() {
             //   href: '#',
             //   // @ts-ignore
             //   text: (
-            //     <div className="flex items-center justify-start">
-            //       Wallet <ArrowLink className="h-4 w-4" />
+            //     <div className="flex justify-start items-center">
+            //       Wallet <ArrowLink className="w-4 h-4" />
             //     </div>
             //   ),
             //   newTab: true,
@@ -72,8 +72,8 @@ export default function Footer() {
             //   newTab: true,
             //   // @ts-ignore
             //   text: (
-            //     <div className="flex items-center justify-start">
-            //       Shop <ArrowLink className="h-4 w-4" />
+            //     <div className="flex justify-start items-center">
+            //       Shop <ArrowLink className="w-4 h-4" />
             //     </div>
             //   ),
             // },
@@ -81,8 +81,8 @@ export default function Footer() {
               href: WagmiConics,
               // @ts-ignore
               text: (
-                <div className="flex items-center justify-start">
-                  Comic <ArrowLink className="h-4 w-4" />
+                <div className="flex justify-start items-center">
+                  Comic <ArrowLink className="w-4 h-4" />
                 </div>
               ),
               newTab: true,

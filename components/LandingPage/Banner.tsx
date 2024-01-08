@@ -7,10 +7,10 @@ export default function Banner() {
   return (
     <div
       id="neko-emoji-banner"
-      className="relative z-10 bg-stone-50 py-20 overflow-visible"
+      className="overflow-visible relative z-10 py-20 bg-stone-50"
     >
-      <div className="max-w-7xl px-5 lg:px-20 mx-auto flex flex-wrap items-center justify-center">
-        <div className="w-full lg:w-5/12 order-2 lg:order-1 space-y-4">
+      <div className="flex flex-wrap justify-center items-center landing-block">
+        <div className="order-2 space-y-4 w-full lg:order-1 lg:w-5/12">
           <Typography
             level="h1"
             className="text-zinc-900 !text-2xl lg:!text-7xl"
@@ -40,19 +40,19 @@ export default function Banner() {
                 title={
                   <>
                     <img
-                      className="h-5 w-5 mr-2"
+                      className="mr-2 w-5 h-5"
                       alt=""
                       src="images/arrow-down-square.svg"
                     />
                     <span>Install</span>
-                    <span className="hidden lg:block ml-1">this pack</span>
+                    <span className="hidden ml-1 lg:block">this pack</span>
                   </>
                 }
               />
             </div>
             <Button
               as="a"
-              className="block lg:hidden rounded-md"
+              className="block rounded-md lg:hidden"
               type="button"
               variant="outline"
               color="white"
@@ -63,11 +63,11 @@ export default function Banner() {
             </Button>
           </div>
         </div>
-        <div className="w-full lg:w-7/12 order-1 lg:order-2">
+        <div className="order-1 w-full lg:order-2 lg:w-7/12">
           <img
             src="images/neko-pack.png"
             alt=""
-            className="w-full h-full object-cover"
+            className="object-cover w-full h-full"
           />
         </div>
       </div>
