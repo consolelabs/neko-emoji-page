@@ -96,7 +96,7 @@ export default function InstallButton({
       <DropdownMenuTrigger asChild>
         <Button
           className={clsx(
-            'flex items-center !bg-[#25D366] hover:!bg-[#25D366] hover:bg-opacity-70 !rounded',
+            'flex items-center !bg-[#25D366] hover:!bg-[#25D366] hover:bg-opacity-70',
             className,
           )}
           color="neutral"
