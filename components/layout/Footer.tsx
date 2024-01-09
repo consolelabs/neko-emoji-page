@@ -7,7 +7,6 @@ import {
   WhatsappInstallLink,
   ConsolelabsURL,
   NekoNFT,
-  NekoShop,
   WagmiConics,
 } from '@configs/links'
 import ArrowLink from '@components/icons/ArrowLink'

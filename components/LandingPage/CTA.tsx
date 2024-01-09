@@ -21,7 +21,7 @@ export default function CTA() {
               src="images/consolelabs-logo.svg"
               alt=""
             />
-            Console Labs, for the love of Neko cats! 🐈‍⬛🐾💖
+            Console Labs, for the love of Neko 🐈‍⬛🐾💖
           </Typography>
           <div className="text-center">
             <Typography

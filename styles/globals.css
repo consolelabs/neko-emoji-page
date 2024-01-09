@@ -10,5 +10,5 @@
 }
 
 .landing-block {
-  @apply w-full px-5 mx-auto xl:max-w-7xl 2xl:px-0;
+  @apply w-full px-5 mx-auto xl:max-w-7xl lg:px-20;
 }
