@@ -69,7 +69,7 @@ export default function Gallery() {
   return (
     <div
       id="gallery"
-      className="overflow-hidden relative z-0 py-8 bg-white lg:py-28 landing-block"
+      className="overflow-hidden relative z-0 py-8 bg-white lg:py-28 landing-container"
     >
       <div
         className={clsx(

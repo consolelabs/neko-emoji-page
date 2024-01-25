@@ -33,7 +33,7 @@ export default function About() {
   return (
     <div
       id="about"
-      className="relative z-0 py-12 space-y-5 bg-white landing-block"
+      className="relative z-0 py-12 space-y-5 bg-white landing-container"
     >
       <div className="inline-flex gap-3 justify-between items-center w-full">
         <img

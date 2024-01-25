@@ -6,17 +6,17 @@ settings:
 
 dependencies:
   '@mochi-ui/core':
-    specifier: ^0.12.0
-    version: 0.12.0(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+    specifier: ^0.13.2
+    version: 0.13.2(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
   '@mochi-ui/footer':
-    specifier: ^0.1.6
-    version: 0.1.6(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+    specifier: ^0.1.9
+    version: 0.1.9(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
   '@mochi-ui/icons':
     specifier: ^0.7.1
     version: 0.7.1(react-dom@18.2.0)(react@18.2.0)
   '@mochi-ui/theme':
-    specifier: ^0.13.0
-    version: 0.13.0(tailwindcss@3.4.0)
+    specifier: ^0.15.0
+    version: 0.15.0(tailwindcss@3.4.0)
   clsx:
     specifier: ^2.0.0
     version: 2.0.0
@@ -76,8 +76,8 @@ packages:
     resolution: {integrity: sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==}
     engines: {node: '>=10'}
 
-  /@babel/runtime@7.23.6:
-    resolution: {integrity: sha512-zHd0eUrf5GZoOWVCXp6koAKQTfZV07eit6bGPmJgnZdnSAvvZee6zniW2XMF7Cmc4ISOOnPy3QaSiIJGJkVEDQ==}
+  /@babel/runtime@7.23.8:
+    resolution: {integrity: sha512-Y7KbAP984rn1VGMbGqKmBLio9V7y5Je9GvU4rQPCPinCyNfUcToxIXl06d59URp/F3LwinvODxab5N/G6qggkw==}
     engines: {node: '>=6.9.0'}
     dependencies:
       regenerator-runtime: 0.14.1
@@ -143,39 +143,39 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@floating-ui/core@1.5.2:
-    resolution: {integrity: sha512-Ii3MrfY/GAIN3OhXNzpCKaLxHQfJF9qvwq/kEJYdqDxeIHa01K8sldugal6TmeeXl+WMvhv9cnVzUTaFFJF09A==}
+  /@floating-ui/core@1.5.3:
+    resolution: {integrity: sha512-O0WKDOo0yhJuugCx6trZQj5jVJ9yR0ystG2JaNAemYUWce+pmM6WUEFIibnWyEJKdrDxhm75NoSRME35FNaM/Q==}
     dependencies:
-      '@floating-ui/utils': 0.1.6
+      '@floating-ui/utils': 0.2.1
     dev: false
 
-  /@floating-ui/dom@1.5.3:
-    resolution: {integrity: sha512-ClAbQnEqJAKCJOEbbLo5IUlZHkNszqhuxS4fHAVxRPXPya6Ysf2G8KypnYcOTpx6I8xcgF9bbHb6g/2KpbV8qA==}
+  /@floating-ui/dom@1.5.4:
+    resolution: {integrity: sha512-jByEsHIY+eEdCjnTVu+E3ephzTOzkQ8hgUfGwos+bg7NlH33Zc5uO+QHz1mrQUOgIKKDD1RtS201P9NvAfq3XQ==}
     dependencies:
-      '@floating-ui/core': 1.5.2
-      '@floating-ui/utils': 0.1.6
+      '@floating-ui/core': 1.5.3
+      '@floating-ui/utils': 0.2.1
     dev: false
 
-  /@floating-ui/react-dom@2.0.4(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-CF8k2rgKeh/49UrnIBs4BdxPUV6vize/Db1d/YbCLyp9GiVZ0BEwf5AiDSxJRCr6yOkGqTFHtmrULxkEfYZ7dQ==}
+  /@floating-ui/react-dom@2.0.6(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-IB8aCRFxr8nFkdYZgH+Otd9EVQPJoynxeFRGTB8voPoZMRWo8XjYuCRgpI1btvuKY69XMiLnW+ym7zoBHM90Rw==}
     peerDependencies:
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
     dependencies:
-      '@floating-ui/dom': 1.5.3
+      '@floating-ui/dom': 1.5.4
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@floating-ui/utils@0.1.6:
-    resolution: {integrity: sha512-OfX7E2oUDYxtBvsuS4e/jSn4Q9Qb6DzgeYtsAdkPZ47znpoNsMgZw0+tVijiv3uGNR6dgNlty6r9rzIzHjtd/A==}
+  /@floating-ui/utils@0.2.1:
+    resolution: {integrity: sha512-9TANp6GPoMtYzQdt54kfAyMmz1+osLlXdg2ENroU7zzrtflTLrrC/lgrIfaSe+Wu0b89GKccT7vxXA0MoAIO+Q==}
     dev: false
 
-  /@humanwhocodes/config-array@0.11.13:
-    resolution: {integrity: sha512-JSBDMiDKSzQVngfRjOdFXgFfklaXI4K9nLF49Auh21lmBWRLIK3+xTErTWD4KU54pb6coM6ESE7Awz/FNU3zgQ==}
+  /@humanwhocodes/config-array@0.11.14:
+    resolution: {integrity: sha512-3T8LkOmg45BV5FICb15QQMsyUSWrQ8AygVfC7ZG32zOalnqrilm018ZVCw0eapXux8FtA33q8PSRSstjee3jSg==}
     engines: {node: '>=10.10.0'}
     dependencies:
-      '@humanwhocodes/object-schema': 2.0.1
+      '@humanwhocodes/object-schema': 2.0.2
       debug: 4.3.4
       minimatch: 3.1.2
     transitivePeerDependencies:
@@ -187,8 +187,8 @@ packages:
     engines: {node: '>=12.22'}
     dev: true
 
-  /@humanwhocodes/object-schema@2.0.1:
-    resolution: {integrity: sha512-dvuCeX5fC9dXgJn9t+X5atfmgQAzUOWqS1254Gh0m6i8wKd10ebXkfNKiRK+1GWi/yTvvLDHpoxLr0xxxeslWw==}
+  /@humanwhocodes/object-schema@2.0.2:
+    resolution: {integrity: sha512-6EwiSjwWYP7pTckG6I5eyFANjPhmPjUX9JRLUSfNPC7FX7zK9gyZAfUEaECL6ALTpGX5AjnBq3C9XmVWPitNpw==}
     dev: true
 
   /@isaacs/cliui@8.0.2:
@@ -208,7 +208,7 @@ packages:
     dependencies:
       '@jridgewell/set-array': 1.1.2
       '@jridgewell/sourcemap-codec': 1.4.15
-      '@jridgewell/trace-mapping': 0.3.20
+      '@jridgewell/trace-mapping': 0.3.22
 
   /@jridgewell/resolve-uri@3.1.1:
     resolution: {integrity: sha512-dSYZh7HhCDtCKm4QakX0xFpsRDqjjtZf/kjI/v3T3Nwt5r8/qz/M19F9ySyOqU94SXBmeG9ttTul+YnR4LOxFA==}
@@ -221,20 +221,20 @@ packages:
   /@jridgewell/sourcemap-codec@1.4.15:
     resolution: {integrity: sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==}
 
-  /@jridgewell/trace-mapping@0.3.20:
-    resolution: {integrity: sha512-R8LcPeWZol2zR8mmH3JeKQ6QRCFb7XgUhV9ZlGhHLGyg4wpPiPZNQOOWhFZhxKw8u//yTbNGI42Bx/3paXEQ+Q==}
+  /@jridgewell/trace-mapping@0.3.22:
+    resolution: {integrity: sha512-Wf963MzWtA2sjrNt+g18IAln9lKnlRp+K2eH4jjIoF1wYeq3aMREpG09xhlhdzS0EjwU7qmUJYangWa+151vZw==}
     dependencies:
       '@jridgewell/resolve-uri': 3.1.1
       '@jridgewell/sourcemap-codec': 1.4.15
 
-  /@mochi-ui/accordion@0.1.15(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
-    resolution: {integrity: sha512-T2UWP46JrJ5tfb14awT4laVp0f7KsyB04iIEaObDRxOmQrsnFQGODyMPB3zx2iGd5aWL1AjzoC++axMVypL+og==}
+  /@mochi-ui/accordion@0.1.18(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
+    resolution: {integrity: sha512-JBb54cgoQtt3of8x6CFvhriaX9z8wOPL5fptqmrMjzKwEknN79FptA5+W3jFsBSv8BR5A3cDZMK2+pnnNMGt+Q==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@mochi-ui/icons': 0.7.1(react-dom@18.2.0)(react@18.2.0)
-      '@mochi-ui/theme': 0.13.0(tailwindcss@3.4.0)
+      '@mochi-ui/icons': 0.7.3(react-dom@18.2.0)(react@18.2.0)
+      '@mochi-ui/theme': 0.15.0(tailwindcss@3.4.0)
       '@radix-ui/react-accordion': 1.1.2(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
       class-variance-authority: 0.7.0
       clsx: 2.0.0
@@ -246,14 +246,14 @@ packages:
       - tailwindcss
     dev: false
 
-  /@mochi-ui/action-bar@0.1.5(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
-    resolution: {integrity: sha512-oP3GvZ+m7HocUgPQOe/sXwNINWS3P7BqO1ptf8o3WVJrDsPczgHZEWtjeRMdYi8BZDxEqEgHvrbWUeKUbDTpFg==}
+  /@mochi-ui/action-bar@0.1.8(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
+    resolution: {integrity: sha512-GziRkCDI3wVNXb5bu11kCoSb1bIyTZ9xvilgiJit1efc0Z473c4Og9hCiqGYkFDvS/x+ssW5py0Br+/cfty7/A==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@mochi-ui/alert': 1.2.5(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/theme': 0.13.0(tailwindcss@3.4.0)
+      '@mochi-ui/alert': 1.2.8(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/theme': 0.15.0(tailwindcss@3.4.0)
       '@radix-ui/react-popover': 1.0.7(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
       clsx: 2.0.0
       react: 18.2.0
@@ -264,17 +264,17 @@ packages:
       - tailwindcss
     dev: false
 
-  /@mochi-ui/alert@1.2.5(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
-    resolution: {integrity: sha512-VJsdtWavqNBpIS8uphR0Eo/kvKQde1TA8lAbwZBbgmJVyXADmiPflXN48O7Ie2wQsOZ8K/zsF+Tl5n5f/kFSWA==}
+  /@mochi-ui/alert@1.2.8(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
+    resolution: {integrity: sha512-ogdpQWBeWj9IYEzTzgZcnO/tR+SXJh/ULwIf2lqpVlDvYWApWUtSUgahgIR5QhYeBisZ/QmwJ12hd4JG3unROQ==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@mochi-ui/button': 0.4.11(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/icon-button': 0.4.12(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/icons': 0.7.1(react-dom@18.2.0)(react@18.2.0)
-      '@mochi-ui/polymorphic': 0.0.3(react-dom@18.2.0)(react@18.2.0)
-      '@mochi-ui/theme': 0.13.0(tailwindcss@3.4.0)
+      '@mochi-ui/button': 0.4.14(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/icon-button': 0.4.15(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/icons': 0.7.3(react-dom@18.2.0)(react@18.2.0)
+      '@mochi-ui/polymorphic': 0.0.4(react-dom@18.2.0)(react@18.2.0)
+      '@mochi-ui/theme': 0.15.0(tailwindcss@3.4.0)
       '@radix-ui/react-slot': 1.0.2(@types/react@18.2.45)(react@18.2.0)
       class-variance-authority: 0.7.0
       clsx: 2.0.0
@@ -285,14 +285,14 @@ packages:
       - tailwindcss
     dev: false
 
-  /@mochi-ui/avatar-group@0.2.0(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
-    resolution: {integrity: sha512-1BBth2WRovShKDo5bAv/JiDjDaNOr6ogsK55T8e6SDK2YJmnivx5G4Qt6fp0UdK6/ysV3BDlvmz6NkKWP9in6Q==}
+  /@mochi-ui/avatar-group@0.3.2(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
+    resolution: {integrity: sha512-EOWImgNUdFMliz5/Z0+5P18P/tJrL/ojiu8aNdwE+3+zZAKU12QHKkrPoruuUj6U4yVNFJN3cZbPrWkytF3zRA==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@mochi-ui/avatar': 0.1.5(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/theme': 0.13.0(tailwindcss@3.4.0)
+      '@mochi-ui/avatar': 0.2.2(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/theme': 0.15.0(tailwindcss@3.4.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     transitivePeerDependencies:
@@ -301,13 +301,15 @@ packages:
       - tailwindcss
     dev: false
 
-  /@mochi-ui/avatar@0.1.5(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
-    resolution: {integrity: sha512-A7ZaOEmyF0VUH/OIAL10EQGin4EMqUbM9gQgnIUcUhy0lx5Sx4LRfu5Z2Cq4FjUsQYuzxnJg8rIHQT+Lteki6A==}
+  /@mochi-ui/avatar@0.2.2(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
+    resolution: {integrity: sha512-tmZET0WXKJV2VshHSYyaQ/WcsE2xPGGJN9JuYPu15+TtvrpgDHZa2qist1TV4IdduvNZYuL1ws61qekjbMkW4A==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@mochi-ui/theme': 0.13.0(tailwindcss@3.4.0)
+      '@dwarvesf/react-utils': 0.4.2(react-dom@18.2.0)(react@18.2.0)
+      '@mochi-ui/skeleton': 1.0.8(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/theme': 0.15.0(tailwindcss@3.4.0)
       '@radix-ui/react-avatar': 1.0.4(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
       class-variance-authority: 0.7.0
       clsx: 2.0.0
@@ -319,13 +321,13 @@ packages:
       - tailwindcss
     dev: false
 
-  /@mochi-ui/badge@0.3.0(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
-    resolution: {integrity: sha512-EpTJ4/2IoLOTJFd0zrT20vMJ3zoCIP9Z7HUHplxl5Jyv9xF9H3ngFcYri9t6jxjlSmAEV4CkvFX1cZvjWtnTYQ==}
+  /@mochi-ui/badge@0.3.3(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
+    resolution: {integrity: sha512-0QQkZgpqCrbjf3nin3+uNI7Cpq7cYmewbRyOQ9XFclrmi1t6XCtz2TFAmjpTbu7z2ZaN8aXPbW7ajDtiK0hieg==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@mochi-ui/theme': 0.13.0(tailwindcss@3.4.0)
+      '@mochi-ui/theme': 0.15.0(tailwindcss@3.4.0)
       class-variance-authority: 0.7.0
       clsx: 2.0.0
       react: 18.2.0
@@ -334,47 +336,49 @@ packages:
       - tailwindcss
     dev: false
 
-  /@mochi-ui/button@0.4.11(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
-    resolution: {integrity: sha512-9GH/yvo9YSqOPf2OBw9jA3gUZGQspOjnPeKATPkKK72OelhLu1mIYgbpahXov0jKwlug1eh/kH7ygnM3NUQhiA==}
+  /@mochi-ui/button@0.4.14(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
+    resolution: {integrity: sha512-zzlt1eSaDGX4YnPNLCLGTKOFJcvi34r9EF8i5wPdnXib5TPlYBZ1A+YAU3Gxs2XxDdb4IjfTxcSA3Gr/DRaZ+w==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@mochi-ui/icons': 0.7.1(react-dom@18.2.0)(react@18.2.0)
-      '@mochi-ui/polymorphic': 0.0.3(react-dom@18.2.0)(react@18.2.0)
-      '@mochi-ui/theme': 0.13.0(tailwindcss@3.4.0)
+      '@mochi-ui/icons': 0.7.3(react-dom@18.2.0)(react@18.2.0)
+      '@mochi-ui/theme': 0.15.0(tailwindcss@3.4.0)
+      '@radix-ui/react-slot': 1.0.2(@types/react@18.2.45)(react@18.2.0)
       class-variance-authority: 0.7.0
       clsx: 2.0.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     transitivePeerDependencies:
+      - '@types/react'
       - tailwindcss
     dev: false
 
-  /@mochi-ui/card@0.1.3(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
-    resolution: {integrity: sha512-cSS/bUO2vYKavilC8QKgfOnK8PUmjuwpSzTDKxsG+W0N+v5M24feAf387YnQWvF0F4uxVO+dJJLe+6fidJ7qIg==}
+  /@mochi-ui/card@0.1.6(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
+    resolution: {integrity: sha512-3dn8MXnNgbKZPhtu2Cz+rJAjVUvlUZHG+gjXDU+HfFSVpi4M0OTMBv8mVdn4pj8aLA5sPsUNYurHvcBPDVP00Q==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@mochi-ui/polymorphic': 0.0.3(react-dom@18.2.0)(react@18.2.0)
-      '@mochi-ui/theme': 0.13.0(tailwindcss@3.4.0)
+      '@mochi-ui/theme': 0.15.0(tailwindcss@3.4.0)
+      '@radix-ui/react-slot': 1.0.2(@types/react@18.2.45)(react@18.2.0)
       class-variance-authority: 0.7.0
       clsx: 2.0.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     transitivePeerDependencies:
+      - '@types/react'
       - tailwindcss
     dev: false
 
-  /@mochi-ui/checkbox@0.1.15(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
-    resolution: {integrity: sha512-ETR18oJbGRQVp6U6Lvnlpp9JcbTN9DzI2U/V7+QfMWnAiNBAsceKkHRl9fRwp2zgrv6dE8SLA/ltDxa9C+e9Xw==}
+  /@mochi-ui/checkbox@0.1.18(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
+    resolution: {integrity: sha512-xUlFUoACUV0aYzv+0QU3R03nWk2roEWrYqd5aCOQxPp4RqZHYqD+E4RorclH3n5CPJISeYgtMCHjWf8EYRwtPg==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@mochi-ui/icons': 0.7.1(react-dom@18.2.0)(react@18.2.0)
-      '@mochi-ui/theme': 0.13.0(tailwindcss@3.4.0)
+      '@mochi-ui/icons': 0.7.3(react-dom@18.2.0)(react@18.2.0)
+      '@mochi-ui/theme': 0.15.0(tailwindcss@3.4.0)
       '@radix-ui/react-checkbox': 1.0.4(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
       class-variance-authority: 0.7.0
       react: 18.2.0
@@ -385,15 +389,15 @@ packages:
       - tailwindcss
     dev: false
 
-  /@mochi-ui/content-editable@1.1.3(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
-    resolution: {integrity: sha512-lnnwnZkA/ZCrteuYtCtwdDFocZwypOUDAf8sy5gCqe5i7q53lsexky0ouKSXo7SSGDPwEYTZBqX8QZsgugEZHA==}
+  /@mochi-ui/content-editable@1.1.6(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
+    resolution: {integrity: sha512-Y+Onsp1BVBL/C+jHKZTmx2tZ3jVOzUCG1MZuEnBB1GZBYdNL2nGSCPpNzetWpBtml6Mza+Uo3wawZzD4fSBkww==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
       '@dwarvesf/react-utils': 0.4.2(react-dom@18.2.0)(react@18.2.0)
-      '@mochi-ui/icons': 0.7.1(react-dom@18.2.0)(react@18.2.0)
-      '@mochi-ui/theme': 0.13.0(tailwindcss@3.4.0)
+      '@mochi-ui/icons': 0.7.3(react-dom@18.2.0)(react@18.2.0)
+      '@mochi-ui/theme': 0.15.0(tailwindcss@3.4.0)
       class-variance-authority: 0.7.0
       clsx: 2.0.0
       react: 18.2.0
@@ -402,54 +406,55 @@ packages:
       - tailwindcss
     dev: false
 
-  /@mochi-ui/core@0.12.0(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
-    resolution: {integrity: sha512-y7wZbvgvmMyNjo26j2S7cMl6G5RAAljko2W4+LSQiASV6tmG+T5HiFn9VGIr9aZHLgkj/aKm0OT3eQvzttvc7Q==}
+  /@mochi-ui/core@0.13.2(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
+    resolution: {integrity: sha512-thsj/cCikGmSPQz0LuvClN/2NvkjUMoB3zYyOs1ZEtAGuqp6q94UESHBHk+EoOu0po+bLxV6FOJkUh4cy7yOaA==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@mochi-ui/accordion': 0.1.15(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/action-bar': 0.1.5(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/alert': 1.2.5(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/avatar': 0.1.5(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/avatar-group': 0.2.0(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/badge': 0.3.0(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/button': 0.4.11(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/card': 0.1.3(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/checkbox': 0.1.15(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/content-editable': 1.1.3(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/drawer': 0.3.2(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/dropdown': 0.2.2(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/footer': 0.1.6(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/form': 0.1.12(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/icon-button': 0.4.12(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/icons': 0.7.1(react-dom@18.2.0)(react@18.2.0)
-      '@mochi-ui/input': 0.3.2(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/label': 0.1.12(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/layout': 0.1.12(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/list': 0.0.25(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/logo': 0.1.12(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/modal': 0.3.2(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/page-content': 0.1.12(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/page-header': 0.3.2(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/pagination': 0.2.4(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/popover': 0.3.2(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/profile-badge': 0.1.13(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/section-header': 0.2.2(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/section-list': 0.0.24(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/select': 0.1.14(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/separator': 0.0.26(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/sidebar': 0.1.5(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/skeleton': 1.0.5(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/switch': 0.0.23(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/table': 0.6.0(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/tabs': 0.2.2(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/theme': 0.13.0(tailwindcss@3.4.0)
-      '@mochi-ui/toast': 0.1.5(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/toggle-button': 0.1.1(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
-      '@mochi-ui/tooltip': 0.2.12(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/top-bar': 0.1.11(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/typography': 0.1.0(react-dom@18.2.0)(react@18.2.0)
+      '@mochi-ui/accordion': 0.1.18(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/action-bar': 0.1.8(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/alert': 1.2.8(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/avatar': 0.2.2(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/avatar-group': 0.3.2(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/badge': 0.3.3(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/button': 0.4.14(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/card': 0.1.6(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/checkbox': 0.1.18(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/content-editable': 1.1.6(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/drawer': 0.3.5(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/dropdown': 0.2.5(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/footer': 0.1.9(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/form': 0.1.15(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/icon-button': 0.4.15(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/icons': 0.7.3(react-dom@18.2.0)(react@18.2.0)
+      '@mochi-ui/input': 0.3.5(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/label': 0.1.15(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/layout': 0.1.15(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/list': 0.0.28(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/logo': 0.1.15(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/modal': 0.3.5(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/page-content': 0.1.15(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/page-header': 0.3.5(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/pagination': 0.3.2(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/popover': 0.3.5(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/profile-badge': 0.2.2(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/scroll-area': 0.0.4(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/section-header': 0.2.5(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/select': 0.2.2(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/separator': 0.0.29(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/sidebar': 0.1.8(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/skeleton': 1.0.8(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/switch': 0.0.26(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/table': 0.7.2(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/tabs': 0.2.5(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/theme': 0.15.0(tailwindcss@3.4.0)
+      '@mochi-ui/toast': 0.1.8(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/toggle-button': 0.1.2(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
+      '@mochi-ui/tooltip': 0.2.15(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/top-bar': 0.1.14(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/typography': 0.1.1(react-dom@18.2.0)(react@18.2.0)
+      '@mochi-ui/value-change': 0.0.4(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     transitivePeerDependencies:
@@ -458,15 +463,15 @@ packages:
       - tailwindcss
     dev: false
 
-  /@mochi-ui/drawer@0.3.2(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
-    resolution: {integrity: sha512-6bBgSkdcYiQnEteiwYY4bD3iDs7+Tb2C6SYyirkMtT1SMzthzpUthws68mW66H+yomBbknsulwNl4/b4357S1Q==}
+  /@mochi-ui/drawer@0.3.5(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
+    resolution: {integrity: sha512-RUhJ8by6ZBaSTviquGuOzteX5nertB4UbML+FiJCzUs8PZ16vU4KSom6J8CTxd9BhG2KvGETjrDyy9zwi4HzwQ==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
       '@dwarvesf/react-utils': 0.4.2(react-dom@18.2.0)(react@18.2.0)
-      '@mochi-ui/icons': 0.7.1(react-dom@18.2.0)(react@18.2.0)
-      '@mochi-ui/theme': 0.13.0(tailwindcss@3.4.0)
+      '@mochi-ui/icons': 0.7.3(react-dom@18.2.0)(react@18.2.0)
+      '@mochi-ui/theme': 0.15.0(tailwindcss@3.4.0)
       '@radix-ui/react-dialog': 1.0.5(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -476,14 +481,14 @@ packages:
       - tailwindcss
     dev: false
 
-  /@mochi-ui/dropdown@0.2.2(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
-    resolution: {integrity: sha512-XF+IBMYK6yiOauJEJhDGF8ZLrQZmertJM4jC40Em35knXZ8pbjYaSpeAlcgaVk4PZVs5LAVKbsUG4+51/jiPvQ==}
+  /@mochi-ui/dropdown@0.2.5(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
+    resolution: {integrity: sha512-jrrXWtsbqj9Gvt6OQMO17SllwmIywZX6Xzxle4uhaEbp9cQJfqPzEtps9vJDhpAmBPHaiJ75KKoAKhTUI2QQ/g==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@mochi-ui/icons': 0.7.1(react-dom@18.2.0)(react@18.2.0)
-      '@mochi-ui/theme': 0.13.0(tailwindcss@3.4.0)
+      '@mochi-ui/icons': 0.7.3(react-dom@18.2.0)(react@18.2.0)
+      '@mochi-ui/theme': 0.15.0(tailwindcss@3.4.0)
       '@radix-ui/react-dropdown-menu': 2.0.6(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
       class-variance-authority: 0.7.0
       clsx: 2.0.0
@@ -495,22 +500,22 @@ packages:
       - tailwindcss
     dev: false
 
-  /@mochi-ui/footer@0.1.6(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
-    resolution: {integrity: sha512-Ou1QBL8YJj7VFfYn8etsENE1R9PGFTdaIAKPzl1WOtTDZLNLnh3Jd/97UtBno6/mFs0d8vYsmO4jHPGEkFlIYg==}
+  /@mochi-ui/footer@0.1.9(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
+    resolution: {integrity: sha512-rihECZWL1K2y361v94304RUPt0WEqoZf/JWwDtIJYh6gf9T3SKEbeUfGC8B4Yec3WiEdPzD+WDXtIaLKu7XMuQ==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@mochi-ui/theme': 0.13.0(tailwindcss@3.4.0)
-      '@mochi-ui/typography': 0.1.0(react-dom@18.2.0)(react@18.2.0)
+      '@mochi-ui/theme': 0.15.0(tailwindcss@3.4.0)
+      '@mochi-ui/typography': 0.1.1(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     transitivePeerDependencies:
       - tailwindcss
     dev: false
 
-  /@mochi-ui/form-context@0.1.1(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-bV/m+w+lq9SFJDLOnXhNPqiSppucQdsB9dtYRuQeqiJ/nRcLZRvOO6eFPFWmmOmf4o30v3RxwBdRWwa0tY75QQ==}
+  /@mochi-ui/form-context@0.1.2(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-kdMBvFvuRaejIb/7xVXd2M+XntRMFwR/AGng37gUofnMJiJgRh5pbRMh/CmZ+tV8OhraLOtN8vHK900qKneTSQ==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
@@ -519,16 +524,16 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@mochi-ui/form@0.1.12(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
-    resolution: {integrity: sha512-DsmUMEe1/qzzDtCcghBvAB0iwLqYBAkARnbLk1Hh3kXnaALy3XaS3lCDNoy2x/RSgvDJh/yoYB1ucvjiNmjPUw==}
+  /@mochi-ui/form@0.1.15(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
+    resolution: {integrity: sha512-E/UJzse/x3r57qdfwC5KoIDDm6c1h+nG7aEM7LqfXtm7ot7oplsWP12/fHGUKdUE0nokRjPKhc88iUZJElcemQ==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@mochi-ui/form-context': 0.1.1(react-dom@18.2.0)(react@18.2.0)
-      '@mochi-ui/label': 0.1.12(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/polymorphic': 0.0.3(react-dom@18.2.0)(react@18.2.0)
-      '@mochi-ui/theme': 0.13.0(tailwindcss@3.4.0)
+      '@mochi-ui/form-context': 0.1.2(react-dom@18.2.0)(react@18.2.0)
+      '@mochi-ui/label': 0.1.15(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/polymorphic': 0.0.4(react-dom@18.2.0)(react@18.2.0)
+      '@mochi-ui/theme': 0.15.0(tailwindcss@3.4.0)
       class-variance-authority: 0.7.0
       clsx: 2.0.0
       react: 18.2.0
@@ -539,19 +544,20 @@ packages:
       - tailwindcss
     dev: false
 
-  /@mochi-ui/icon-button@0.4.12(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
-    resolution: {integrity: sha512-z5ieQBXF7qaEr1IQGT6blAfE+rCmPhenTYOx3wN01hwt0LeOfYdjxjskWAlFuk9iMvClOJcCl71JYHXDLp1qwA==}
+  /@mochi-ui/icon-button@0.4.15(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
+    resolution: {integrity: sha512-WXepFi0ojaLAE5fv+cnpTzDqlAlbLqyIjEgqMNJXpN7dZr339QJjXasPiwzgqqUltMbkFSaBOXIV9WqOGBpnNA==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@mochi-ui/icons': 0.7.1(react-dom@18.2.0)(react@18.2.0)
-      '@mochi-ui/polymorphic': 0.0.3(react-dom@18.2.0)(react@18.2.0)
-      '@mochi-ui/theme': 0.13.0(tailwindcss@3.4.0)
+      '@mochi-ui/icons': 0.7.3(react-dom@18.2.0)(react@18.2.0)
+      '@mochi-ui/theme': 0.15.0(tailwindcss@3.4.0)
+      '@radix-ui/react-slot': 1.0.2(@types/react@18.2.45)(react@18.2.0)
       class-variance-authority: 0.7.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     transitivePeerDependencies:
+      - '@types/react'
       - tailwindcss
     dev: false
 
@@ -565,15 +571,25 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@mochi-ui/input@0.3.2(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
-    resolution: {integrity: sha512-CDPGeBj9g5oZi8fQeDtC0qhMhEp0Ja80JxPwGxNzFwYra5QYfTYi9hdxJy9RqAN/1Gwbpb076qj8iBEew/QtHw==}
+  /@mochi-ui/icons@0.7.3(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-x1/xo4UV6pYzzQsT1Xu2/RuRSXbPp032XHsKrvp0u5+2oiJ00HnusmXYVqD2VArZ45qgly7dJs+xTG+y65Pb/w==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@mochi-ui/form-context': 0.1.1(react-dom@18.2.0)(react@18.2.0)
-      '@mochi-ui/polymorphic': 0.0.3(react-dom@18.2.0)(react@18.2.0)
-      '@mochi-ui/theme': 0.13.0(tailwindcss@3.4.0)
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+    dev: false
+
+  /@mochi-ui/input@0.3.5(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
+    resolution: {integrity: sha512-BridPXdGuRcy43I6y+DbTVEkKiP1o06VoZ6e39oW1oNsGx40r10UDLLYyzdKUHWymTnd5SRrC76rW1JCM+gbvA==}
+    peerDependencies:
+      react: ^18.2.0
+      react-dom: ^18.2.0
+    dependencies:
+      '@mochi-ui/form-context': 0.1.2(react-dom@18.2.0)(react@18.2.0)
+      '@mochi-ui/polymorphic': 0.0.4(react-dom@18.2.0)(react@18.2.0)
+      '@mochi-ui/theme': 0.15.0(tailwindcss@3.4.0)
       class-variance-authority: 0.7.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -581,13 +597,13 @@ packages:
       - tailwindcss
     dev: false
 
-  /@mochi-ui/label@0.1.12(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
-    resolution: {integrity: sha512-jVeN7op4ikxD9fFzXJNU2HTgWlxAwnw7iO0vM7xSz9xNhJBfbv5srdlpwqkQVRec35s19v/C+zH+1qw3eOs7kQ==}
+  /@mochi-ui/label@0.1.15(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
+    resolution: {integrity: sha512-uHCDm7Qp1pWCUQRnvhVKCkkaTw0m1OySVHvVrJ488z28wOpvC4OBivp1v135Cz7P9OwBHdJPt0wtWrWlnCNFGw==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@mochi-ui/theme': 0.13.0(tailwindcss@3.4.0)
+      '@mochi-ui/theme': 0.15.0(tailwindcss@3.4.0)
       '@radix-ui/react-label': 2.0.2(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -597,14 +613,14 @@ packages:
       - tailwindcss
     dev: false
 
-  /@mochi-ui/layout@0.1.12(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
-    resolution: {integrity: sha512-1WRTRbxwxdvgmbl4XeOrU+Klvdu77MnXncqBnMyAmQTR9SHxeW8akI1R3+7cH6/GI+36sRfrByhbomXS3Gph5Q==}
+  /@mochi-ui/layout@0.1.15(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
+    resolution: {integrity: sha512-WhaIrPXEi+PbpIIwqsRqIr5+ZOYqi+ySAV20VS6ggXPCRh4eaopMHbBblPRKGwvKUr4uQD7HAltL6U91B3tiEg==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@mochi-ui/sidebar': 0.1.5(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/theme': 0.13.0(tailwindcss@3.4.0)
+      '@mochi-ui/sidebar': 0.1.8(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/theme': 0.15.0(tailwindcss@3.4.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     transitivePeerDependencies:
@@ -613,13 +629,13 @@ packages:
       - tailwindcss
     dev: false
 
-  /@mochi-ui/list@0.0.25(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
-    resolution: {integrity: sha512-z4fAwqoDBpxBnjcPlPjE8pkesJ3gwM0IDGaeU5VmTSbQpZvzsiUB+M73qWvYI1JV6fQfbSZu6aDIWAtuYn9+Zw==}
+  /@mochi-ui/list@0.0.28(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
+    resolution: {integrity: sha512-74X4ihY0xA31FDYga2JeFgarG7XsIpM2Ukt2/yK7JPX3YmrP/fFgqQ0WbLk1NTdEU8uIxxaAj8Ze5enApEW2IQ==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@mochi-ui/theme': 0.13.0(tailwindcss@3.4.0)
+      '@mochi-ui/theme': 0.15.0(tailwindcss@3.4.0)
       '@radix-ui/react-scroll-area': 1.0.5(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
       class-variance-authority: 0.7.0
       react: 18.2.0
@@ -630,27 +646,27 @@ packages:
       - tailwindcss
     dev: false
 
-  /@mochi-ui/logo@0.1.12(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
-    resolution: {integrity: sha512-yeF9w1RyhUxuAQ8BarY3HWlUJbYF7s3+6YykSJqbOQ41hGy0vYXkOnBcYz1D/DW6h9dRMyHX6bvsVGGAFsV9Qw==}
+  /@mochi-ui/logo@0.1.15(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
+    resolution: {integrity: sha512-6eu//xgAFQgw7Jbq2TTqBgn7I5mOYQ3JKytgiHBdhwD+3d5FxPG/0C5PZApIuUvrtaThUo96cJ0PbeYLDwgdOA==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@mochi-ui/theme': 0.13.0(tailwindcss@3.4.0)
+      '@mochi-ui/theme': 0.15.0(tailwindcss@3.4.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     transitivePeerDependencies:
       - tailwindcss
     dev: false
 
-  /@mochi-ui/modal@0.3.2(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
-    resolution: {integrity: sha512-+fXOurdB0nIzMxY2cGhPeFwjZDwuSjtVxsRISMXj/xfFQgxiABGSByulKNKO9th9//lFWj2Ia1o66e4gR/r9kQ==}
+  /@mochi-ui/modal@0.3.5(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
+    resolution: {integrity: sha512-6oixw3WOT24VGzW84RMUqxPvZ5+oLd+WBQh80BNkH1j8FJaf9j/xXyO7PIcmbLCoH2lToBcl0MKOhmOatCFQqQ==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@mochi-ui/icons': 0.7.1(react-dom@18.2.0)(react@18.2.0)
-      '@mochi-ui/theme': 0.13.0(tailwindcss@3.4.0)
+      '@mochi-ui/icons': 0.7.3(react-dom@18.2.0)(react@18.2.0)
+      '@mochi-ui/theme': 0.15.0(tailwindcss@3.4.0)
       '@radix-ui/react-dialog': 1.0.5(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -660,52 +676,56 @@ packages:
       - tailwindcss
     dev: false
 
-  /@mochi-ui/page-content@0.1.12(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
-    resolution: {integrity: sha512-uWWRrRazXEXPMOJuLVBns7Xg5qitASAk5SBVrugL3DQjfW0suoLLXxteA0zb0zWnAxlWIZOyjA+LGUoHgvLjGQ==}
+  /@mochi-ui/page-content@0.1.15(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
+    resolution: {integrity: sha512-iqV7+tZ/MH/YtCsYTgmFM13podXQ5xLABIttq7u1Q7bK6rzG8uIet/GNgpX7sx7fZd3CginYfJ5cA+ohXJpIMw==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@mochi-ui/theme': 0.13.0(tailwindcss@3.4.0)
+      '@mochi-ui/theme': 0.15.0(tailwindcss@3.4.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     transitivePeerDependencies:
       - tailwindcss
     dev: false
 
-  /@mochi-ui/page-header@0.3.2(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
-    resolution: {integrity: sha512-mmfVXGBiTpLE4QcpZqXawgrZzfVhLI6f3eSuAP5K3jDl01bGvOdOctvuS1qDe5PnFLK5FZfrEI6z1DUdbAqiUA==}
+  /@mochi-ui/page-header@0.3.5(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
+    resolution: {integrity: sha512-RbcSSkAfKuC7R0+8wsIWNBE+KdWASYMnLnchi4QTXzoNrn2YgG9v9ooXAjiRC4IbXYTn8uuBlC6iVS0eVTgokA==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@mochi-ui/icon-button': 0.4.12(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/icons': 0.7.1(react-dom@18.2.0)(react@18.2.0)
-      '@mochi-ui/polymorphic': 0.0.3(react-dom@18.2.0)(react@18.2.0)
-      '@mochi-ui/theme': 0.13.0(tailwindcss@3.4.0)
-      '@mochi-ui/typography': 0.1.0(react-dom@18.2.0)(react@18.2.0)
+      '@mochi-ui/icon-button': 0.4.15(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/icons': 0.7.3(react-dom@18.2.0)(react@18.2.0)
+      '@mochi-ui/polymorphic': 0.0.4(react-dom@18.2.0)(react@18.2.0)
+      '@mochi-ui/theme': 0.15.0(tailwindcss@3.4.0)
+      '@mochi-ui/typography': 0.1.1(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     transitivePeerDependencies:
+      - '@types/react'
       - tailwindcss
     dev: false
 
-  /@mochi-ui/pagination@0.2.4(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
-    resolution: {integrity: sha512-3DRHgU9B9J4ULBuGAzMswmonwQlhq04W8tL2SyiXGFDtDyysY8lsIOiUUfx7sozLtxPx6e0MxZYa3e2mJbb05w==}
+  /@mochi-ui/pagination@0.3.2(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
+    resolution: {integrity: sha512-q+O2wvw5wCLJNu+kW6snX14xP3kAZaf/PTUAYafa6f/iGwnGCY8T7gIYN8Vzd73h8utJ9Svaj/dChgOQ5UUxdQ==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@mochi-ui/icons': 0.7.1(react-dom@18.2.0)(react@18.2.0)
-      '@mochi-ui/theme': 0.13.0(tailwindcss@3.4.0)
+      '@mochi-ui/icons': 0.7.3(react-dom@18.2.0)(react@18.2.0)
+      '@mochi-ui/select': 0.2.2(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/theme': 0.15.0(tailwindcss@3.4.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     transitivePeerDependencies:
+      - '@types/react'
+      - '@types/react-dom'
       - tailwindcss
     dev: false
 
-  /@mochi-ui/polymorphic@0.0.3(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-r6C80vh1N+0wyXEeK6cZ5h9PRrZjLrG3XqINQmGjm52z7hTn3hqgEeb+RHzJynK6GdCmhOcUb1U4dHODRvQPSg==}
+  /@mochi-ui/polymorphic@0.0.4(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-1NcYbWEvelB15WknbHQpVK2GkdUA6tSzpRgM1LAlxXuJgX8IyZ/bK7oHRFgKjSxLOM0zc0TMA3fZ0GZVE1AcTg==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
@@ -714,13 +734,13 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@mochi-ui/popover@0.3.2(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
-    resolution: {integrity: sha512-5MDsLDaUl0OBu4Y58P9YASJlI7bLZyiMr8+pQSMYQhTD1Jisql03NC/Xk1QVVXZ6QXwjRQ09eYAcpiS2/Me1KQ==}
+  /@mochi-ui/popover@0.3.5(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
+    resolution: {integrity: sha512-TcM5A8co7dEW+RxwMVLAtHncHFf+U3i4EZikgUY/32x7yFStErvRGUsTuXgrtrgya6sySE4vNJEMjQkKIxv+Uw==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@mochi-ui/theme': 0.13.0(tailwindcss@3.4.0)
+      '@mochi-ui/theme': 0.15.0(tailwindcss@3.4.0)
       '@radix-ui/react-popover': 1.0.7(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
       class-variance-authority: 0.7.0
       clsx: 2.0.0
@@ -732,14 +752,14 @@ packages:
       - tailwindcss
     dev: false
 
-  /@mochi-ui/profile-badge@0.1.13(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
-    resolution: {integrity: sha512-lLaiK2BYap+m3Nrxw2g4Nhjmmu/RjjwmfA4NZx6qsXIBpAwksLbfm3yfQHIZFUiOlfgo06Svy2apSyzdIcov5A==}
+  /@mochi-ui/profile-badge@0.2.2(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
+    resolution: {integrity: sha512-fOzUSmbBbECvkFROYLTyk1HZEljuMZQq4Pghb0GCs41uz+PB3aopQaTx/yMqkX2ZmtsNfDZdnRgIsEwPFaTCDg==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@mochi-ui/avatar': 0.1.5(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/theme': 0.13.0(tailwindcss@3.4.0)
+      '@mochi-ui/avatar': 0.2.2(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/theme': 0.15.0(tailwindcss@3.4.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     transitivePeerDependencies:
@@ -748,29 +768,16 @@ packages:
       - tailwindcss
     dev: false
 
-  /@mochi-ui/section-header@0.2.2(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
-    resolution: {integrity: sha512-YSLbXWl2BeiUz8yxwem4XyYrXSu9RUSgxiQBu52lbcvYySgRMMBSHvfPM1OhTvs6FNoDGTRJ1EvuKhNxBxKk1g==}
+  /@mochi-ui/scroll-area@0.0.4(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
+    resolution: {integrity: sha512-YVWE9ltbKt5mXJZCIsGP+aZTcQ6kE8FAuHwJnFSGHwCZAr1+jH3SpyhAUVi8cF2GR7BqC/tdzwU7CxTXDxY4pQ==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@dwarvesf/react-utils': 0.4.2(react-dom@18.2.0)(react@18.2.0)
-      '@mochi-ui/theme': 0.13.0(tailwindcss@3.4.0)
-      '@mochi-ui/typography': 0.1.0(react-dom@18.2.0)(react@18.2.0)
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
-    transitivePeerDependencies:
-      - tailwindcss
-    dev: false
-
-  /@mochi-ui/section-list@0.0.24(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
-    resolution: {integrity: sha512-eYsZ86YsNBYQvcPi2zfI8A+3JGnuAklbxZ3qcGqydXntSPNYnphmF4xlgTgMSeHvYab/gDrKxt9XkDv7ztwIdw==}
-    peerDependencies:
-      react: ^18.2.0
-      react-dom: ^18.2.0
-    dependencies:
-      '@mochi-ui/theme': 0.13.0(tailwindcss@3.4.0)
+      '@mochi-ui/icons': 0.7.3(react-dom@18.2.0)(react@18.2.0)
+      '@mochi-ui/theme': 0.15.0(tailwindcss@3.4.0)
       '@radix-ui/react-scroll-area': 1.0.5(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
+      class-variance-authority: 0.7.0
       clsx: 2.0.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -780,14 +787,30 @@ packages:
       - tailwindcss
     dev: false
 
-  /@mochi-ui/select@0.1.14(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
-    resolution: {integrity: sha512-9J4Mdw64UXdrK54Dj/ca7iPS+0SiVPGuYMLcfGVJ9e/Q48wxn7oy7JvFzY2rGDDWg5qXy6Ecg6SQCKbyoEmYbQ==}
+  /@mochi-ui/section-header@0.2.5(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
+    resolution: {integrity: sha512-5DFQAxpSEvuyDQ5bSSdSbq3LmrOWhM3r8B98Tv1tJTSnT/mvzZWxifp4T2anKVjJljFFSRULqzP+5iedDGTkSg==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@mochi-ui/icons': 0.7.1(react-dom@18.2.0)(react@18.2.0)
-      '@mochi-ui/theme': 0.13.0(tailwindcss@3.4.0)
+      '@dwarvesf/react-utils': 0.4.2(react-dom@18.2.0)(react@18.2.0)
+      '@mochi-ui/theme': 0.15.0(tailwindcss@3.4.0)
+      '@mochi-ui/typography': 0.1.1(react-dom@18.2.0)(react@18.2.0)
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+    transitivePeerDependencies:
+      - tailwindcss
+    dev: false
+
+  /@mochi-ui/select@0.2.2(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
+    resolution: {integrity: sha512-alPoZVdYfGLKhcokXof8oUKpj5u/HTnDm/p+CvSMsRJBqzYb6kQh24pkZDlUpORkpvql8SOHF2ThLLlhPkyY+g==}
+    peerDependencies:
+      react: ^18.2.0
+      react-dom: ^18.2.0
+    dependencies:
+      '@dwarvesf/react-utils': 0.4.2(react-dom@18.2.0)(react@18.2.0)
+      '@mochi-ui/icons': 0.7.3(react-dom@18.2.0)(react@18.2.0)
+      '@mochi-ui/theme': 0.15.0(tailwindcss@3.4.0)
       '@radix-ui/react-select': 2.0.0(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
       class-variance-authority: 0.7.0
       clsx: 2.0.0
@@ -799,13 +822,13 @@ packages:
       - tailwindcss
     dev: false
 
-  /@mochi-ui/separator@0.0.26(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
-    resolution: {integrity: sha512-+wjYmR4xawrtPi9OzHAZz5XpiFahBXB2EwFPsyVZWeZkWqsYK4yXb9J7i12VsEh9E+LDFJOKb8yoSN82JYbqyA==}
+  /@mochi-ui/separator@0.0.29(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
+    resolution: {integrity: sha512-BXzVqnxzbwRMXEnB7Yy1oakBLLKiBJns47QLMmKILXiGUEmgiBDRw+WH/uWDjBbyPfGUeK0wJcf0zg7O2lNBaQ==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@mochi-ui/theme': 0.13.0(tailwindcss@3.4.0)
+      '@mochi-ui/theme': 0.15.0(tailwindcss@3.4.0)
       '@radix-ui/react-separator': 1.0.3(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
       clsx: 2.0.0
       react: 18.2.0
@@ -816,17 +839,17 @@ packages:
       - tailwindcss
     dev: false
 
-  /@mochi-ui/sidebar@0.1.5(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
-    resolution: {integrity: sha512-v7iC1zQPBIKTwJSQ2wb66Gj+qcdIQaCdODYSQ38T1nnXILhzttilkn5i6zTWHFWDcOJ9jEfXjXePnyKIlv9jiQ==}
+  /@mochi-ui/sidebar@0.1.8(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
+    resolution: {integrity: sha512-yGYiKWbtnlDneXAuP5xzdavXZIApiG/rbqKvL2EsFkU9dHF16J5BkLTbz7ji31Qmt/khtvF/J7oLXB/crudM9w==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@mochi-ui/accordion': 0.1.15(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/icons': 0.7.1(react-dom@18.2.0)(react@18.2.0)
-      '@mochi-ui/theme': 0.13.0(tailwindcss@3.4.0)
-      '@mochi-ui/tooltip': 0.2.12(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/typography': 0.1.0(react-dom@18.2.0)(react@18.2.0)
+      '@mochi-ui/accordion': 0.1.18(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/icons': 0.7.3(react-dom@18.2.0)(react@18.2.0)
+      '@mochi-ui/theme': 0.15.0(tailwindcss@3.4.0)
+      '@mochi-ui/tooltip': 0.2.15(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/typography': 0.1.1(react-dom@18.2.0)(react@18.2.0)
       class-variance-authority: 0.7.0
       clsx: 2.0.0
       react: 18.2.0
@@ -837,14 +860,14 @@ packages:
       - tailwindcss
     dev: false
 
-  /@mochi-ui/skeleton@1.0.5(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
-    resolution: {integrity: sha512-4jnwtkgkNQimeOCf6hzdOvzA9TjJav89ntd4WMlHtR7LjnOVe3CDheoZTjkBZXNT5PUDEKpxxwCmh7wn2r0M/A==}
+  /@mochi-ui/skeleton@1.0.8(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
+    resolution: {integrity: sha512-E5IVabkasVJMVA0gwhlQ18YyRh6j2UrRdSGUH5lwdZ+8YxU7UlmmzbNyR+vk9Q0pKMGI/ZT+UaMVea8Xko4gYg==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@mochi-ui/icons': 0.7.1(react-dom@18.2.0)(react@18.2.0)
-      '@mochi-ui/theme': 0.13.0(tailwindcss@3.4.0)
+      '@mochi-ui/icons': 0.7.3(react-dom@18.2.0)(react@18.2.0)
+      '@mochi-ui/theme': 0.15.0(tailwindcss@3.4.0)
       class-variance-authority: 0.7.0
       clsx: 2.0.0
       react: 18.2.0
@@ -853,13 +876,13 @@ packages:
       - tailwindcss
     dev: false
 
-  /@mochi-ui/switch@0.0.23(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
-    resolution: {integrity: sha512-DLlsuthFKF9CP4+ISSKm5psKTrVxTJYd2znkdP7v6dtWEkheGUppPBKxJ0/XYK+IHRh6IMujE7lTpUudOYd6iQ==}
+  /@mochi-ui/switch@0.0.26(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
+    resolution: {integrity: sha512-9jGL6prHtQERLr3LvN5NGysIWQ4LBS8SWQJN8XYUWVAgiirp9/2wkHp8rjMdWe0PTC72/CrL8nP2xhb0W2ULew==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@mochi-ui/theme': 0.13.0(tailwindcss@3.4.0)
+      '@mochi-ui/theme': 0.15.0(tailwindcss@3.4.0)
       '@radix-ui/react-switch': 1.0.3(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
       class-variance-authority: 0.7.0
       clsx: 2.0.0
@@ -871,28 +894,28 @@ packages:
       - tailwindcss
     dev: false
 
-  /@mochi-ui/table@0.6.0(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
-    resolution: {integrity: sha512-X4KoaSrJRy3nEGiYbfgZVHcNX3BKQ+nXsFXnQyqrrDJkdXVqP7Tz04O9fX7ZfvXrLyW0q/4DY3O5O9iwNfenyw==}
+  /@mochi-ui/table@0.7.2(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
+    resolution: {integrity: sha512-5y1JFEFpgbjU93owXrFdYLdUPkE2Z3QMT9+eUGXls7OHK2LYNdSDaOuqFFqprf0tsBhLElSHrqAn4nhXlYteQw==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@mochi-ui/skeleton': 1.0.5(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/theme': 0.13.0(tailwindcss@3.4.0)
-      '@tanstack/react-table': 8.11.2(react-dom@18.2.0)(react@18.2.0)
+      '@mochi-ui/skeleton': 1.0.8(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/theme': 0.15.0(tailwindcss@3.4.0)
+      '@tanstack/react-table': 8.11.7(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     transitivePeerDependencies:
       - tailwindcss
     dev: false
 
-  /@mochi-ui/tabs@0.2.2(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
-    resolution: {integrity: sha512-Pf5Vq2t1ILX7x4ReenYiM9G6UfudDzrYCEo+SJd5ECmOWIWavPK8/zasGjHGhYz0Zn408aZQAha83SVZatDQFA==}
+  /@mochi-ui/tabs@0.2.5(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
+    resolution: {integrity: sha512-VcSsgR6iDM1MSV13J46g1DdRcTpFpl4icMnvyGrAYOL7VR7JhN9kig7afVjqcFQ0ZPEQUsDnsvZXmBJ6aQZ2bg==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@mochi-ui/theme': 0.13.0(tailwindcss@3.4.0)
+      '@mochi-ui/theme': 0.15.0(tailwindcss@3.4.0)
       '@radix-ui/react-tabs': 1.0.4(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
       class-variance-authority: 0.7.0
       clsx: 2.0.0
@@ -904,8 +927,8 @@ packages:
       - tailwindcss
     dev: false
 
-  /@mochi-ui/theme@0.13.0(tailwindcss@3.4.0):
-    resolution: {integrity: sha512-nUFHSPHEqlgiwlqBQVFv3sYSsj+HiGGJd7b2uQr9gV8lBXAURcM7+8ezS3GF+m8VSGDc7Xf4FZUSkwA0OZK+sQ==}
+  /@mochi-ui/theme@0.15.0(tailwindcss@3.4.0):
+    resolution: {integrity: sha512-KdkN+uUS5zjoB5SllG4/ORQubPJYQpPfalPnszX7Cr/HHkG6pROvCO6NN5JUM5Fg+frdfMV2FcESsfTf7r2/6Q==}
     peerDependencies:
       tailwindcss: '*'
     dependencies:
@@ -916,15 +939,15 @@ packages:
       tailwindcss: 3.4.0
     dev: false
 
-  /@mochi-ui/toast@0.1.5(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
-    resolution: {integrity: sha512-hX9yBUV0OzGFfsHPMThsjnNcG7KUVK8Ypso4DMNNOtFQ08HQwf7WhvOCOt7HqngLLC0x7X1AmwLoAzMbA0KS4Q==}
+  /@mochi-ui/toast@0.1.8(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
+    resolution: {integrity: sha512-ae4TcMoAQ2rTwmuJzGDo2ovObyiYk3CaS8lf8RPwCjMSVp/CVYAhARGfQWTkjixfbN900h39TGuXm9zOIlwdvg==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@mochi-ui/alert': 1.2.5(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/polymorphic': 0.0.3(react-dom@18.2.0)(react@18.2.0)
-      '@mochi-ui/theme': 0.13.0(tailwindcss@3.4.0)
+      '@mochi-ui/alert': 1.2.8(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/polymorphic': 0.0.4(react-dom@18.2.0)(react@18.2.0)
+      '@mochi-ui/theme': 0.15.0(tailwindcss@3.4.0)
       '@radix-ui/react-slot': 1.0.2(@types/react@18.2.45)(react@18.2.0)
       '@radix-ui/react-toast': 1.1.5(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
       class-variance-authority: 0.7.0
@@ -937,8 +960,8 @@ packages:
       - tailwindcss
     dev: false
 
-  /@mochi-ui/toggle-button@0.1.1(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-h6rMGdvVrkz/A55oAPQoRh8GxyE4qd5F29+3QtOPgfTobi/AoXna21/yc81LpuTd5ePGOi8Sb6laq7PSPfNRYw==}
+  /@mochi-ui/toggle-button@0.1.2(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-0vqHLeGb4KqZg21k6R046a9ahun5vAdqw4pbzUl6Y++CcssdKu7sxkH6blyPHp5wrpSl9QvGtyx8AzegCXGzpQ==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
@@ -953,13 +976,13 @@ packages:
       - '@types/react-dom'
     dev: false
 
-  /@mochi-ui/tooltip@0.2.12(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
-    resolution: {integrity: sha512-shr1D0G7IE9mRloIhZXUUWgfvVvKBNJS1Mw9EBewW983n4ZWqETXV0IoL1igHJscXfrpSf9w/e9MvHJf7waEJw==}
+  /@mochi-ui/tooltip@0.2.15(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
+    resolution: {integrity: sha512-kTtay3pQuLPz/jq/EPuOVbVU428rtsaT8AuvGnuqmb9fM19BeRCJUojmouXR34riwRzgQ5P3EqmjDahBwzEBsA==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@mochi-ui/theme': 0.13.0(tailwindcss@3.4.0)
+      '@mochi-ui/theme': 0.15.0(tailwindcss@3.4.0)
       '@radix-ui/react-tooltip': 1.0.7(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
       class-variance-authority: 0.7.0
       react: 18.2.0
@@ -970,17 +993,17 @@ packages:
       - tailwindcss
     dev: false
 
-  /@mochi-ui/top-bar@0.1.11(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
-    resolution: {integrity: sha512-2SjT+txINuETs3sZiDoPvArIQ+bfRnBhF0A4Cs2uCIriz3JyaLpVXnFOJ/0H5mIYbT7tdrWZGKDr6hGq4JIM+A==}
+  /@mochi-ui/top-bar@0.1.14(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
+    resolution: {integrity: sha512-wUBvQRalKtQF8jiV7YZLSozaajNWkpwlMYeUFceFnPk8bbCnkBnLcJwqrENojHXxw9/sJtjL0Lo8W7rZAUSr8w==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
       '@dwarvesf/react-hooks': 0.8.2(react-dom@18.2.0)(react@18.2.0)
-      '@mochi-ui/icon-button': 0.4.12(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/icons': 0.7.1(react-dom@18.2.0)(react@18.2.0)
-      '@mochi-ui/list': 0.0.25(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
-      '@mochi-ui/theme': 0.13.0(tailwindcss@3.4.0)
+      '@mochi-ui/icon-button': 0.4.15(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/icons': 0.7.3(react-dom@18.2.0)(react@18.2.0)
+      '@mochi-ui/list': 0.0.28(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0)
+      '@mochi-ui/theme': 0.15.0(tailwindcss@3.4.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     transitivePeerDependencies:
@@ -989,8 +1012,8 @@ packages:
       - tailwindcss
     dev: false
 
-  /@mochi-ui/typography@0.1.0(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-LoLRBguDFrByHdvu//UQrSps0zpXw9QPXd6bSY/Z/AlgW7w4kCr9jem0GDkH+iw8oKuMmG9wQZGpFAExgrN3lg==}
+  /@mochi-ui/typography@0.1.1(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-GVw1OzjyNNG95usgAtlkhYK5W3DkuWVH/yigyvEc7SFlXRVEuuv9zB0z5Enlf2jEW8M8mnRF4YerfqSIfpeKeA==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
@@ -999,6 +1022,20 @@ packages:
       clsx: 2.0.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
+    dev: false
+
+  /@mochi-ui/value-change@0.0.4(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.0):
+    resolution: {integrity: sha512-iCfZ1v6MKFhbydLED4V0ewWwM3bXNKEGtUtZU8ehwxl4FtFmCAO9Tr02HKvPX+z/45m4rM2mi6A2vCGn9buzPQ==}
+    peerDependencies:
+      react: ^18.2.0
+      react-dom: ^18.2.0
+    dependencies:
+      '@mochi-ui/icons': 0.7.3(react-dom@18.2.0)(react@18.2.0)
+      '@mochi-ui/theme': 0.15.0(tailwindcss@3.4.0)
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+    transitivePeerDependencies:
+      - tailwindcss
     dev: false
 
   /@next/env@14.0.4:
@@ -1119,13 +1156,13 @@ packages:
   /@radix-ui/number@1.0.1:
     resolution: {integrity: sha512-T5gIdVO2mmPW3NNhjNgEP3cqMXjXL9UbO0BzWcXfvdBs+BohbQxvd/K5hSVKmn9/lbTdsQVKbUcP5WLCwvUbBg==}
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
     dev: false
 
   /@radix-ui/primitive@1.0.1:
     resolution: {integrity: sha512-yQ8oGX2GVsEYMWGxcovu1uGWPCxV5BFfeeYxqPmuAzUyLT9qmaMXSAhXpb0WrspIeqYzdJpkh2vHModJPgRIaw==}
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
     dev: false
 
   /@radix-ui/react-accordion@1.1.2(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0):
@@ -1141,7 +1178,7 @@ packages:
       '@types/react-dom':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       '@radix-ui/primitive': 1.0.1
       '@radix-ui/react-collapsible': 1.0.3(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-collection': 1.0.3(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
@@ -1170,7 +1207,7 @@ packages:
       '@types/react-dom':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       '@radix-ui/react-primitive': 1.0.3(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
       '@types/react': 18.2.45
       '@types/react-dom': 18.2.18
@@ -1191,7 +1228,7 @@ packages:
       '@types/react-dom':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       '@radix-ui/react-context': 1.0.1(@types/react@18.2.45)(react@18.2.0)
       '@radix-ui/react-primitive': 1.0.3(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-use-callback-ref': 1.0.1(@types/react@18.2.45)(react@18.2.0)
@@ -1215,7 +1252,7 @@ packages:
       '@types/react-dom':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       '@radix-ui/primitive': 1.0.1
       '@radix-ui/react-compose-refs': 1.0.1(@types/react@18.2.45)(react@18.2.0)
       '@radix-ui/react-context': 1.0.1(@types/react@18.2.45)(react@18.2.0)
@@ -1243,7 +1280,7 @@ packages:
       '@types/react-dom':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       '@radix-ui/primitive': 1.0.1
       '@radix-ui/react-compose-refs': 1.0.1(@types/react@18.2.45)(react@18.2.0)
       '@radix-ui/react-context': 1.0.1(@types/react@18.2.45)(react@18.2.0)
@@ -1271,7 +1308,7 @@ packages:
       '@types/react-dom':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       '@radix-ui/react-compose-refs': 1.0.1(@types/react@18.2.45)(react@18.2.0)
       '@radix-ui/react-context': 1.0.1(@types/react@18.2.45)(react@18.2.0)
       '@radix-ui/react-primitive': 1.0.3(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
@@ -1291,7 +1328,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       '@types/react': 18.2.45
       react: 18.2.0
     dev: false
@@ -1305,7 +1342,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       '@types/react': 18.2.45
       react: 18.2.0
     dev: false
@@ -1323,7 +1360,7 @@ packages:
       '@types/react-dom':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       '@radix-ui/primitive': 1.0.1
       '@radix-ui/react-compose-refs': 1.0.1(@types/react@18.2.45)(react@18.2.0)
       '@radix-ui/react-context': 1.0.1(@types/react@18.2.45)(react@18.2.0)
@@ -1353,7 +1390,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       '@types/react': 18.2.45
       react: 18.2.0
     dev: false
@@ -1371,7 +1408,7 @@ packages:
       '@types/react-dom':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       '@radix-ui/primitive': 1.0.1
       '@radix-ui/react-compose-refs': 1.0.1(@types/react@18.2.45)(react@18.2.0)
       '@radix-ui/react-primitive': 1.0.3(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
@@ -1396,7 +1433,7 @@ packages:
       '@types/react-dom':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       '@radix-ui/primitive': 1.0.1
       '@radix-ui/react-compose-refs': 1.0.1(@types/react@18.2.45)(react@18.2.0)
       '@radix-ui/react-context': 1.0.1(@types/react@18.2.45)(react@18.2.0)
@@ -1419,7 +1456,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       '@types/react': 18.2.45
       react: 18.2.0
     dev: false
@@ -1437,7 +1474,7 @@ packages:
       '@types/react-dom':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       '@radix-ui/react-compose-refs': 1.0.1(@types/react@18.2.45)(react@18.2.0)
       '@radix-ui/react-primitive': 1.0.3(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-use-callback-ref': 1.0.1(@types/react@18.2.45)(react@18.2.0)
@@ -1456,7 +1493,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       '@radix-ui/react-use-layout-effect': 1.0.1(@types/react@18.2.45)(react@18.2.0)
       '@types/react': 18.2.45
       react: 18.2.0
@@ -1475,7 +1512,7 @@ packages:
       '@types/react-dom':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       '@radix-ui/react-primitive': 1.0.3(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
       '@types/react': 18.2.45
       '@types/react-dom': 18.2.18
@@ -1496,7 +1533,7 @@ packages:
       '@types/react-dom':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       '@radix-ui/primitive': 1.0.1
       '@radix-ui/react-collection': 1.0.3(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-compose-refs': 1.0.1(@types/react@18.2.45)(react@18.2.0)
@@ -1534,7 +1571,7 @@ packages:
       '@types/react-dom':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       '@radix-ui/primitive': 1.0.1
       '@radix-ui/react-compose-refs': 1.0.1(@types/react@18.2.45)(react@18.2.0)
       '@radix-ui/react-context': 1.0.1(@types/react@18.2.45)(react@18.2.0)
@@ -1569,8 +1606,8 @@ packages:
       '@types/react-dom':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.6
-      '@floating-ui/react-dom': 2.0.4(react-dom@18.2.0)(react@18.2.0)
+      '@babel/runtime': 7.23.8
+      '@floating-ui/react-dom': 2.0.6(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-arrow': 1.0.3(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-compose-refs': 1.0.1(@types/react@18.2.45)(react@18.2.0)
       '@radix-ui/react-context': 1.0.1(@types/react@18.2.45)(react@18.2.0)
@@ -1599,7 +1636,7 @@ packages:
       '@types/react-dom':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       '@radix-ui/react-primitive': 1.0.3(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
       '@types/react': 18.2.45
       '@types/react-dom': 18.2.18
@@ -1620,7 +1657,7 @@ packages:
       '@types/react-dom':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       '@radix-ui/react-compose-refs': 1.0.1(@types/react@18.2.45)(react@18.2.0)
       '@radix-ui/react-use-layout-effect': 1.0.1(@types/react@18.2.45)(react@18.2.0)
       '@types/react': 18.2.45
@@ -1642,7 +1679,7 @@ packages:
       '@types/react-dom':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       '@radix-ui/react-slot': 1.0.2(@types/react@18.2.45)(react@18.2.0)
       '@types/react': 18.2.45
       '@types/react-dom': 18.2.18
@@ -1663,7 +1700,7 @@ packages:
       '@types/react-dom':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       '@radix-ui/primitive': 1.0.1
       '@radix-ui/react-collection': 1.0.3(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-compose-refs': 1.0.1(@types/react@18.2.45)(react@18.2.0)
@@ -1692,7 +1729,7 @@ packages:
       '@types/react-dom':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       '@radix-ui/number': 1.0.1
       '@radix-ui/primitive': 1.0.1
       '@radix-ui/react-compose-refs': 1.0.1(@types/react@18.2.45)(react@18.2.0)
@@ -1721,7 +1758,7 @@ packages:
       '@types/react-dom':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       '@radix-ui/number': 1.0.1
       '@radix-ui/primitive': 1.0.1
       '@radix-ui/react-collection': 1.0.3(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
@@ -1762,7 +1799,7 @@ packages:
       '@types/react-dom':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       '@radix-ui/react-primitive': 1.0.3(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
       '@types/react': 18.2.45
       '@types/react-dom': 18.2.18
@@ -1779,7 +1816,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       '@radix-ui/react-compose-refs': 1.0.1(@types/react@18.2.45)(react@18.2.0)
       '@types/react': 18.2.45
       react: 18.2.0
@@ -1798,7 +1835,7 @@ packages:
       '@types/react-dom':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       '@radix-ui/primitive': 1.0.1
       '@radix-ui/react-compose-refs': 1.0.1(@types/react@18.2.45)(react@18.2.0)
       '@radix-ui/react-context': 1.0.1(@types/react@18.2.45)(react@18.2.0)
@@ -1825,7 +1862,7 @@ packages:
       '@types/react-dom':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       '@radix-ui/primitive': 1.0.1
       '@radix-ui/react-context': 1.0.1(@types/react@18.2.45)(react@18.2.0)
       '@radix-ui/react-direction': 1.0.1(@types/react@18.2.45)(react@18.2.0)
@@ -1853,7 +1890,7 @@ packages:
       '@types/react-dom':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       '@radix-ui/primitive': 1.0.1
       '@radix-ui/react-collection': 1.0.3(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-compose-refs': 1.0.1(@types/react@18.2.45)(react@18.2.0)
@@ -1885,7 +1922,7 @@ packages:
       '@types/react-dom':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       '@radix-ui/primitive': 1.0.1
       '@radix-ui/react-context': 1.0.1(@types/react@18.2.45)(react@18.2.0)
       '@radix-ui/react-direction': 1.0.1(@types/react@18.2.45)(react@18.2.0)
@@ -1912,7 +1949,7 @@ packages:
       '@types/react-dom':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       '@radix-ui/primitive': 1.0.1
       '@radix-ui/react-primitive': 1.0.3(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-use-controllable-state': 1.0.1(@types/react@18.2.45)(react@18.2.0)
@@ -1935,7 +1972,7 @@ packages:
       '@types/react-dom':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       '@radix-ui/primitive': 1.0.1
       '@radix-ui/react-compose-refs': 1.0.1(@types/react@18.2.45)(react@18.2.0)
       '@radix-ui/react-context': 1.0.1(@types/react@18.2.45)(react@18.2.0)
@@ -1963,7 +2000,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       '@types/react': 18.2.45
       react: 18.2.0
     dev: false
@@ -1977,7 +2014,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       '@radix-ui/react-use-callback-ref': 1.0.1(@types/react@18.2.45)(react@18.2.0)
       '@types/react': 18.2.45
       react: 18.2.0
@@ -1992,7 +2029,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       '@radix-ui/react-use-callback-ref': 1.0.1(@types/react@18.2.45)(react@18.2.0)
       '@types/react': 18.2.45
       react: 18.2.0
@@ -2007,7 +2044,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       '@types/react': 18.2.45
       react: 18.2.0
     dev: false
@@ -2021,7 +2058,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       '@types/react': 18.2.45
       react: 18.2.0
     dev: false
@@ -2035,7 +2072,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       '@radix-ui/rect': 1.0.1
       '@types/react': 18.2.45
       react: 18.2.0
@@ -2050,7 +2087,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       '@radix-ui/react-use-layout-effect': 1.0.1(@types/react@18.2.45)(react@18.2.0)
       '@types/react': 18.2.45
       react: 18.2.0
@@ -2069,7 +2106,7 @@ packages:
       '@types/react-dom':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       '@radix-ui/react-primitive': 1.0.3(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
       '@types/react': 18.2.45
       '@types/react-dom': 18.2.18
@@ -2080,11 +2117,11 @@ packages:
   /@radix-ui/rect@1.0.1:
     resolution: {integrity: sha512-fyrgCaedtvMg9NK3en0pnOYJdtfwxUcNolezkNPUsoX57X8oQk+NkqcvzHXD2uKNij6GXmWU9NDru2IWjrO4BQ==}
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
     dev: false
 
-  /@rushstack/eslint-patch@1.6.1:
-    resolution: {integrity: sha512-UY+FGM/2jjMkzQLn8pxcHGMaVLh9aEitG3zY2CiY7XHdLiz3bZOwa6oDxNqEMv7zZkV+cj5DOdz0cQ1BP5Hjgw==}
+  /@rushstack/eslint-patch@1.7.1:
+    resolution: {integrity: sha512-irBNt5094vHloql4QzY8RdeI8Tns2kGsaiJ/m6jENWx9xCz/m/F4gKQ1dAailFmpL0Id9tgWLqZbTUO4SINM/Q==}
     dev: true
 
   /@swc/helpers@0.5.2:
@@ -2093,20 +2130,20 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@tanstack/react-table@8.11.2(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-ztLg2OpM3HZIWzkQYjQER1inZuhbt79fBwZxc9bPXzsvqY+7RYI3dCZLw3CynYd9s4YltdrTbmSyh4xQSHexDQ==}
+  /@tanstack/react-table@8.11.7(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-ZbzfMkLjxUTzNPBXJYH38pv2VpC9WUA+Qe5USSHEBz0dysDTv4z/ARI3csOed/5gmlmrPzVUN3UXGuUMbod3Jg==}
     engines: {node: '>=12'}
     peerDependencies:
       react: '>=16'
       react-dom: '>=16'
     dependencies:
-      '@tanstack/table-core': 8.11.2
+      '@tanstack/table-core': 8.11.7
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@tanstack/table-core@8.11.2:
-    resolution: {integrity: sha512-rR0VEQOtr0ARLvaNLaSQnt2BVwOp0OavOUA0LcZ3N45tLYXc4sXruNv8kJ7R7+5W1CrzGha217tzjBG83CpoMQ==}
+  /@tanstack/table-core@8.11.7:
+    resolution: {integrity: sha512-N3ksnkbPbsF3PjubuZCB/etTqvctpXWRHIXTmYfJFnhynQKjeZu8BCuHvdlLPpumKbA+bjY4Ay9AELYLOXPWBg==}
     engines: {node: '>=12'}
     dev: false
 
@@ -2138,8 +2175,8 @@ packages:
   /@types/scheduler@0.16.8:
     resolution: {integrity: sha512-WZLiwShhwLRmeV6zH+GkbOFT6Z6VklCItrDioxUnv+u4Ll+8vKeFySoFyK/0ctcRpOmwAicELfmys1sDc/Rw+A==}
 
-  /@typescript-eslint/parser@6.16.0(eslint@8.56.0)(typescript@5.3.3):
-    resolution: {integrity: sha512-H2GM3eUo12HpKZU9njig3DF5zJ58ja6ahj1GoHEHOgQvYxzoFJJEvC1MQ7T2l9Ha+69ZSOn7RTxOdpC/y3ikMw==}
+  /@typescript-eslint/parser@6.19.1(eslint@8.56.0)(typescript@5.3.3):
+    resolution: {integrity: sha512-WEfX22ziAh6pRE9jnbkkLGp/4RhTpffr2ZK5bJ18M8mIfA8A+k97U9ZyaXCEJRlmMHh7R9MJZWXp/r73DzINVQ==}
     engines: {node: ^16.0.0 || >=18.0.0}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0
@@ -2148,10 +2185,10 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@typescript-eslint/scope-manager': 6.16.0
-      '@typescript-eslint/types': 6.16.0
-      '@typescript-eslint/typescript-estree': 6.16.0(typescript@5.3.3)
-      '@typescript-eslint/visitor-keys': 6.16.0
+      '@typescript-eslint/scope-manager': 6.19.1
+      '@typescript-eslint/types': 6.19.1
+      '@typescript-eslint/typescript-estree': 6.19.1(typescript@5.3.3)
+      '@typescript-eslint/visitor-keys': 6.19.1
       debug: 4.3.4
       eslint: 8.56.0
       typescript: 5.3.3
@@ -2159,21 +2196,21 @@ packages:
       - supports-color
     dev: true
 
-  /@typescript-eslint/scope-manager@6.16.0:
-    resolution: {integrity: sha512-0N7Y9DSPdaBQ3sqSCwlrm9zJwkpOuc6HYm7LpzLAPqBL7dmzAUimr4M29dMkOP/tEwvOCC/Cxo//yOfJD3HUiw==}
+  /@typescript-eslint/scope-manager@6.19.1:
+    resolution: {integrity: sha512-4CdXYjKf6/6aKNMSly/BP4iCSOpvMmqtDzRtqFyyAae3z5kkqEjKndR5vDHL8rSuMIIWP8u4Mw4VxLyxZW6D5w==}
     engines: {node: ^16.0.0 || >=18.0.0}
     dependencies:
-      '@typescript-eslint/types': 6.16.0
-      '@typescript-eslint/visitor-keys': 6.16.0
+      '@typescript-eslint/types': 6.19.1
+      '@typescript-eslint/visitor-keys': 6.19.1
     dev: true
 
-  /@typescript-eslint/types@6.16.0:
-    resolution: {integrity: sha512-hvDFpLEvTJoHutVl87+MG/c5C8I6LOgEx05zExTSJDEVU7hhR3jhV8M5zuggbdFCw98+HhZWPHZeKS97kS3JoQ==}
+  /@typescript-eslint/types@6.19.1:
+    resolution: {integrity: sha512-6+bk6FEtBhvfYvpHsDgAL3uo4BfvnTnoge5LrrCj2eJN8g3IJdLTD4B/jK3Q6vo4Ql/Hoip9I8aB6fF+6RfDqg==}
     engines: {node: ^16.0.0 || >=18.0.0}
     dev: true
 
-  /@typescript-eslint/typescript-estree@6.16.0(typescript@5.3.3):
-    resolution: {integrity: sha512-VTWZuixh/vr7nih6CfrdpmFNLEnoVBF1skfjdyGnNwXOH1SLeHItGdZDHhhAIzd3ACazyY2Fg76zuzOVTaknGA==}
+  /@typescript-eslint/typescript-estree@6.19.1(typescript@5.3.3):
+    resolution: {integrity: sha512-aFdAxuhzBFRWhy+H20nYu19+Km+gFfwNO4TEqyszkMcgBDYQjmPJ61erHxuT2ESJXhlhrO7I5EFIlZ+qGR8oVA==}
     engines: {node: ^16.0.0 || >=18.0.0}
     peerDependencies:
       typescript: '*'
@@ -2181,8 +2218,8 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@typescript-eslint/types': 6.16.0
-      '@typescript-eslint/visitor-keys': 6.16.0
+      '@typescript-eslint/types': 6.19.1
+      '@typescript-eslint/visitor-keys': 6.19.1
       debug: 4.3.4
       globby: 11.1.0
       is-glob: 4.0.3
@@ -2194,11 +2231,11 @@ packages:
       - supports-color
     dev: true
 
-  /@typescript-eslint/visitor-keys@6.16.0:
-    resolution: {integrity: sha512-QSFQLruk7fhs91a/Ep/LqRdbJCZ1Rq03rqBdKT5Ky17Sz8zRLUksqIe9DW0pKtg/Z35/ztbLQ6qpOCN6rOC11A==}
+  /@typescript-eslint/visitor-keys@6.19.1:
+    resolution: {integrity: sha512-gkdtIO+xSO/SmI0W68DBg4u1KElmIUo3vXzgHyGPs6cxgB0sa3TlptRAAE0hUY1hM6FcDKEv7aIwiTGm76cXfQ==}
     engines: {node: ^16.0.0 || >=18.0.0}
     dependencies:
-      '@typescript-eslint/types': 6.16.0
+      '@typescript-eslint/types': 6.19.1
       eslint-visitor-keys: 3.4.3
     dev: true
 
@@ -2206,16 +2243,16 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: true
 
-  /acorn-jsx@5.3.2(acorn@8.11.2):
+  /acorn-jsx@5.3.2(acorn@8.11.3):
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
     peerDependencies:
       acorn: ^6.0.0 || ^7.0.0 || ^8.0.0
     dependencies:
-      acorn: 8.11.2
+      acorn: 8.11.3
     dev: true
 
-  /acorn@8.11.2:
-    resolution: {integrity: sha512-nc0Axzp/0FILLEVsm4fNwLCwMttvhEI263QtVPQcbpfZZ3ts0hLsZGOpE6czNlid7CJ9MlyH8reXkpsf3YUY4w==}
+  /acorn@8.11.3:
+    resolution: {integrity: sha512-Y9rRfJG5jcKOE0CLisYbojUjIrIEE7AGMzA/Sm4BslANhbS+cDMpgBdcPT91oJ7OuJ9hYJBx59RjbhxVnrF8Xg==}
     engines: {node: '>=0.4.0'}
     hasBin: true
     dev: true
@@ -2372,7 +2409,7 @@ packages:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.22.2
-      caniuse-lite: 1.0.30001571
+      caniuse-lite: 1.0.30001580
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -2426,8 +2463,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001571
-      electron-to-chromium: 1.4.616
+      caniuse-lite: 1.0.30001580
+      electron-to-chromium: 1.4.645
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.22.2)
     dev: true
@@ -2444,7 +2481,7 @@ packages:
     dependencies:
       function-bind: 1.1.2
       get-intrinsic: 1.2.2
-      set-function-length: 1.1.1
+      set-function-length: 1.2.0
     dev: true
 
   /callsites@3.1.0:
@@ -2456,8 +2493,8 @@ packages:
     resolution: {integrity: sha512-QOSvevhslijgYwRx6Rv7zKdMF8lbRmx+uQGx2+vDc+KI/eBnsy9kit5aj23AgGu3pa4t9AgwbnXWqS+iOY+2aA==}
     engines: {node: '>= 6'}
 
-  /caniuse-lite@1.0.30001571:
-    resolution: {integrity: sha512-tYq/6MoXhdezDLFZuCO/TKboTzuQ/xR5cFdgXPfDtM7/kchBO3b4VWghE/OAi/DV7tTdhmLjZiZBZi1fA/GheQ==}
+  /caniuse-lite@1.0.30001580:
+    resolution: {integrity: sha512-mtj5ur2FFPZcCEpXFy8ADXbDACuNFXg6mxVDqp7tqooX6l3zwm+d8EPoeOSIFRDvHs8qu7/SLFOGniULkcH2iA==}
 
   /chalk@4.1.2:
     resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
@@ -2642,8 +2679,8 @@ packages:
   /eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
-  /electron-to-chromium@1.4.616:
-    resolution: {integrity: sha512-1n7zWYh8eS0L9Uy+GskE0lkBUNK83cXTVJI0pU3mGprFsbfSdAc15VTFbo+A+Bq4pwstmL30AVcEU3Fo463lNg==}
+  /electron-to-chromium@1.4.645:
+    resolution: {integrity: sha512-EeS1oQDCmnYsRDRy2zTeC336a/4LZ6WKqvSaM1jLocEk5ZuyszkQtCpsqvuvaIXGOUjwtvF6LTcS8WueibXvSw==}
     dev: true
 
   /emoji-regex@8.0.0:
@@ -2692,8 +2729,8 @@ packages:
       object-keys: 1.1.1
       object.assign: 4.1.5
       regexp.prototype.flags: 1.5.1
-      safe-array-concat: 1.0.1
-      safe-regex-test: 1.0.0
+      safe-array-concat: 1.1.0
+      safe-regex-test: 1.0.2
       string.prototype.trim: 1.2.8
       string.prototype.trimend: 1.0.7
       string.prototype.trimstart: 1.0.7
@@ -2721,7 +2758,7 @@ packages:
       has-symbols: 1.0.3
       internal-slot: 1.0.6
       iterator.prototype: 1.1.2
-      safe-array-concat: 1.0.1
+      safe-array-concat: 1.1.0
     dev: true
 
   /es-set-tostringtag@2.0.2:
@@ -2768,12 +2805,12 @@ packages:
         optional: true
     dependencies:
       '@next/eslint-plugin-next': 14.0.4
-      '@rushstack/eslint-patch': 1.6.1
-      '@typescript-eslint/parser': 6.16.0(eslint@8.56.0)(typescript@5.3.3)
+      '@rushstack/eslint-patch': 1.7.1
+      '@typescript-eslint/parser': 6.19.1(eslint@8.56.0)(typescript@5.3.3)
       eslint: 8.56.0
       eslint-import-resolver-node: 0.3.9
-      eslint-import-resolver-typescript: 3.6.1(@typescript-eslint/parser@6.16.0)(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1)(eslint@8.56.0)
-      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@6.16.0)(eslint-import-resolver-typescript@3.6.1)(eslint@8.56.0)
+      eslint-import-resolver-typescript: 3.6.1(@typescript-eslint/parser@6.19.1)(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1)(eslint@8.56.0)
+      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@6.19.1)(eslint-import-resolver-typescript@3.6.1)(eslint@8.56.0)
       eslint-plugin-jsx-a11y: 6.8.0(eslint@8.56.0)
       eslint-plugin-react: 7.33.2(eslint@8.56.0)
       eslint-plugin-react-hooks: 4.6.0(eslint@8.56.0)
@@ -2793,7 +2830,7 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@6.16.0)(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1)(eslint@8.56.0):
+  /eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@6.19.1)(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1)(eslint@8.56.0):
     resolution: {integrity: sha512-xgdptdoi5W3niYeuQxKmzVDTATvLYqhpwmykwsh7f6HIOStGWEIL9iqZgQDF9u9OEzrRwR8no5q2VT+bjAujTg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -2803,8 +2840,8 @@ packages:
       debug: 4.3.4
       enhanced-resolve: 5.15.0
       eslint: 8.56.0
-      eslint-module-utils: 2.8.0(@typescript-eslint/parser@6.16.0)(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1)(eslint@8.56.0)
-      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@6.16.0)(eslint-import-resolver-typescript@3.6.1)(eslint@8.56.0)
+      eslint-module-utils: 2.8.0(@typescript-eslint/parser@6.19.1)(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1)(eslint@8.56.0)
+      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@6.19.1)(eslint-import-resolver-typescript@3.6.1)(eslint@8.56.0)
       fast-glob: 3.3.2
       get-tsconfig: 4.7.2
       is-core-module: 2.13.1
@@ -2816,7 +2853,7 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-module-utils@2.8.0(@typescript-eslint/parser@6.16.0)(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1)(eslint@8.56.0):
+  /eslint-module-utils@2.8.0(@typescript-eslint/parser@6.19.1)(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1)(eslint@8.56.0):
     resolution: {integrity: sha512-aWajIYfsqCKRDgUfjEXNN/JlrzauMuSEy5sbd7WXbtW3EH6A6MpwEh42c7qD+MqQo9QMJ6fWLAeIJynx0g6OAw==}
     engines: {node: '>=4'}
     peerDependencies:
@@ -2837,16 +2874,16 @@ packages:
       eslint-import-resolver-webpack:
         optional: true
     dependencies:
-      '@typescript-eslint/parser': 6.16.0(eslint@8.56.0)(typescript@5.3.3)
+      '@typescript-eslint/parser': 6.19.1(eslint@8.56.0)(typescript@5.3.3)
       debug: 3.2.7
       eslint: 8.56.0
       eslint-import-resolver-node: 0.3.9
-      eslint-import-resolver-typescript: 3.6.1(@typescript-eslint/parser@6.16.0)(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1)(eslint@8.56.0)
+      eslint-import-resolver-typescript: 3.6.1(@typescript-eslint/parser@6.19.1)(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1)(eslint@8.56.0)
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /eslint-plugin-import@2.29.1(@typescript-eslint/parser@6.16.0)(eslint-import-resolver-typescript@3.6.1)(eslint@8.56.0):
+  /eslint-plugin-import@2.29.1(@typescript-eslint/parser@6.19.1)(eslint-import-resolver-typescript@3.6.1)(eslint@8.56.0):
     resolution: {integrity: sha512-BbPC0cuExzhiMo4Ff1BTVwHpjjv28C5R+btTOGaCRC7UEz801up0JadwkeSk5Ued6TG34uaczuVuH6qyy5YUxw==}
     engines: {node: '>=4'}
     peerDependencies:
@@ -2856,7 +2893,7 @@ packages:
       '@typescript-eslint/parser':
         optional: true
     dependencies:
-      '@typescript-eslint/parser': 6.16.0(eslint@8.56.0)(typescript@5.3.3)
+      '@typescript-eslint/parser': 6.19.1(eslint@8.56.0)(typescript@5.3.3)
       array-includes: 3.1.7
       array.prototype.findlastindex: 1.2.3
       array.prototype.flat: 1.3.2
@@ -2865,7 +2902,7 @@ packages:
       doctrine: 2.1.0
       eslint: 8.56.0
       eslint-import-resolver-node: 0.3.9
-      eslint-module-utils: 2.8.0(@typescript-eslint/parser@6.16.0)(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1)(eslint@8.56.0)
+      eslint-module-utils: 2.8.0(@typescript-eslint/parser@6.19.1)(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1)(eslint@8.56.0)
       hasown: 2.0.0
       is-core-module: 2.13.1
       is-glob: 4.0.3
@@ -2887,7 +2924,7 @@ packages:
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       aria-query: 5.3.0
       array-includes: 3.1.7
       array.prototype.flatmap: 1.3.2
@@ -2962,7 +2999,7 @@ packages:
       '@eslint-community/regexpp': 4.10.0
       '@eslint/eslintrc': 2.1.4
       '@eslint/js': 8.56.0
-      '@humanwhocodes/config-array': 0.11.13
+      '@humanwhocodes/config-array': 0.11.14
       '@humanwhocodes/module-importer': 1.0.1
       '@nodelib/fs.walk': 1.2.8
       '@ungap/structured-clone': 1.2.0
@@ -3004,8 +3041,8 @@ packages:
     resolution: {integrity: sha512-oruZaFkjorTpF32kDSI5/75ViwGeZginGGy2NoOSg3Q9bnwlnmDm4HLnkl0RE3n+njDXR037aY1+x58Z/zFdwQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dependencies:
-      acorn: 8.11.2
-      acorn-jsx: 5.3.2(acorn@8.11.2)
+      acorn: 8.11.3
+      acorn-jsx: 5.3.2(acorn@8.11.3)
       eslint-visitor-keys: 3.4.3
     dev: true
 
@@ -3712,7 +3749,7 @@ packages:
       '@next/env': 14.0.4
       '@swc/helpers': 0.5.2
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001571
+      caniuse-lite: 1.0.30001580
       graceful-fs: 4.2.11
       postcss: 8.4.31
       react: 18.2.0
@@ -3943,10 +3980,10 @@ packages:
       postcss: ^8.2.14
     dependencies:
       postcss: 8.4.32
-      postcss-selector-parser: 6.0.14
+      postcss-selector-parser: 6.0.15
 
-  /postcss-selector-parser@6.0.14:
-    resolution: {integrity: sha512-65xXYsT40i9GyWzlHQ5ShZoK7JZdySeOozi/tz2EezDo6c04q6+ckYMeoY7idaie1qp2dT5KoYQ2yky6JuoHnA==}
+  /postcss-selector-parser@6.0.15:
+    resolution: {integrity: sha512-rEYkQOMUCEMhsKbK66tbEU9QVIxbhN18YiniAwA7XQYTVBqrBy+P2p5JcdqsHgKM2zWylp8d7J6eszocfds5Sw==}
     engines: {node: '>=4'}
     dependencies:
       cssesc: 3.0.0
@@ -4149,8 +4186,8 @@ packages:
     dependencies:
       queue-microtask: 1.2.3
 
-  /safe-array-concat@1.0.1:
-    resolution: {integrity: sha512-6XbUAseYE2KtOuGueyeobCySj9L4+66Tn6KQMOPQJrAJEowYKW/YR/MGJZl7FdydUdaFu4LYyDZjxf4/Nmo23Q==}
+  /safe-array-concat@1.1.0:
+    resolution: {integrity: sha512-ZdQ0Jeb9Ofti4hbt5lX3T2JcAamT9hfzYU1MNB+z/jaEbB6wfFfPIR/zEORmZqobkCCJhSjodobH6WHNmJ97dg==}
     engines: {node: '>=0.4'}
     dependencies:
       call-bind: 1.0.5
@@ -4159,8 +4196,9 @@ packages:
       isarray: 2.0.5
     dev: true
 
-  /safe-regex-test@1.0.0:
-    resolution: {integrity: sha512-JBUUzyOgEwXQY1NuPtvcj/qcBDbDmEvWufhlnXZIm75DEHp+afM1r1ujJpJsV/gSM4t59tpDyPi1sd6ZaPFfsA==}
+  /safe-regex-test@1.0.2:
+    resolution: {integrity: sha512-83S9w6eFq12BBIJYvjMux6/dkirb8+4zJRA9cxNBVb7Wq5fJBW+Xze48WqR8pxua7bDuAaaAxtVVd4Idjp1dBQ==}
+    engines: {node: '>= 0.4'}
     dependencies:
       call-bind: 1.0.5
       get-intrinsic: 1.2.2
@@ -4186,11 +4224,12 @@ packages:
       lru-cache: 6.0.0
     dev: true
 
-  /set-function-length@1.1.1:
-    resolution: {integrity: sha512-VoaqjbBJKiWtg4yRcKBQ7g7wnGnLV3M8oLvVWwOk2PdYY6PEFegR1vezXR0tw6fZGF9csVakIRjrJiy2veSBFQ==}
+  /set-function-length@1.2.0:
+    resolution: {integrity: sha512-4DBHDoyHlM1IRPGYcoxexgh67y4ueR53FKV1yyxwFMY7aCqcN/38M1+SwZ/qJQ8iLv7+ck385ot4CcisOAPT9w==}
     engines: {node: '>= 0.4'}
     dependencies:
       define-data-property: 1.1.1
+      function-bind: 1.1.2
       get-intrinsic: 1.2.2
       gopd: 1.0.1
       has-property-descriptors: 1.0.1
@@ -4389,7 +4428,7 @@ packages:
       postcss-js: 4.0.1(postcss@8.4.32)
       postcss-load-config: 4.0.2(postcss@8.4.32)
       postcss-nested: 6.0.1(postcss@8.4.32)
-      postcss-selector-parser: 6.0.14
+      postcss-selector-parser: 6.0.15
       resolve: 1.22.8
       sucrase: 3.35.0
     transitivePeerDependencies:

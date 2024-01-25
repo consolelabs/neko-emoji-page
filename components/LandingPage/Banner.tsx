@@ -9,7 +9,7 @@ export default function Banner() {
       id="neko-emoji-banner"
       className="overflow-visible relative z-10 py-20 bg-stone-50"
     >
-      <div className="flex flex-wrap justify-center items-center landing-block">
+      <div className="flex flex-wrap justify-center items-center landing-container">
         <div className="order-2 space-y-4 w-full lg:order-1 lg:w-5/12">
           <Typography
             level="h1"

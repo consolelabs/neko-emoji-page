@@ -2,7 +2,7 @@ import { Typography } from '@mochi-ui/core'
 
 export default function CTA() {
   return (
-    <div className="py-20 landing-block">
+    <div className="py-20 landing-container">
       <div className="flex flex-col gap-6 justify-center items-center">
         <video
           className="object-contain w-24 h-24"
