@@ -9,10 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@mochi-ui/core": "^0.13.2",
-    "@mochi-ui/footer": "^0.1.9",
+    "@mochi-ui/core": "^0.13.3",
+    "@mochi-ui/footer": "^0.1.10",
     "@mochi-ui/icons": "^0.7.1",
-    "@mochi-ui/theme": "^0.15.0",
+    "@mochi-ui/theme": "^0.16.0",
     "clsx": "^2.0.0",
     "date-fns": "^3.0.6",
     "next": "14.0.4",
